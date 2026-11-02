@@ -42,10 +42,13 @@ jobs:
       - name: "🚀 Lancer le pipeline multi-agents"
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           CONCURRENCY: 40
           PAGES_BASE_URL: "https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}"
         run: |
           python run_pipeline.py
+
 
       - name: "💾 Sauvegarder les listes sur le dépôt"
         run: |

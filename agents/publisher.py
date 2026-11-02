@@ -69,8 +69,49 @@ class PublisherAgent:
         # 4. Génération du Dashboard Web HTML
         self._generate_web_dashboard(stats)
 
+        # 5. Notification Telegram (si configurée)
+        self._send_telegram_notification(stats)
+
         logger.info(f"✅ Déploiement terminé : {len(channels)} chaînes réparties dans {self.output_dir}/")
         return stats
+
+    def _send_telegram_notification(self, stats: Dict[str, Any]):
+        bot_token = os.environ.get("TELEGRAM_BOT_TOKEN")
+        chat_id = os.environ.get("TELEGRAM_CHAT_ID")
+        if not bot_token or not chat_id:
+            return
+
+        text = (
+            "🚀 *IPTV Autopilot • Rapport d'Actualisation*\n\n"
+            f"📅 *Date :* {stats['timestamp']}\n"
+            f"🟢 *Total flux opérationnels :* *{stats['total_valid']}*\n\n"
+            "📊 *Détails par catégorie :*\n"
+            f"• 🇫🇷 *France & TNT :* {stats['france_count']} chaînes\n"
+            f"• 🎬 *Cinéma & Films :* {stats['movies_count']} chaînes\n"
+            f"• ⚽ *Sports :* {stats['sports_count']} chaînes\n"
+            f"• 📺 *Séries :* {stats['series_count']} chaînes\n"
+            f"• 📰 *Actualités :* {stats['news_count']} chaînes\n\n"
+            "📺 *Votre Box TV est à jour !*\n"
+            f"🌐 [Ouvrir le Dashboard Web]({self.base_url or 'https://psychokiller90.github.io/iptv-autopilot'})"
+        )
+        try:
+            import urllib.request
+            payload = json.dumps({
+                "chat_id": chat_id,
+                "text": text,
+                "parse_mode": "Markdown",
+                "disable_web_page_preview": False
+            }).encode("utf-8")
+            req = urllib.request.Request(
+                f"https://api.telegram.org/bot{bot_token}/sendMessage",
+                data=payload,
+                headers={"Content-Type": "application/json"}
+            )
+            with urllib.request.urlopen(req, timeout=10) as resp:
+                logger.info("📱 Notification Telegram envoyée avec succès.")
+        except Exception as e:
+            logger.warning(f"⚠️ Échec notification Telegram : {e}")
+
 
     def _write_m3u(self, filepath: str, channels: List[Dict[str, Any]], title: str):
         lines = [f"#EXTM3U name=\"{title}\""]
