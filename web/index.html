@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPTV Autopilot Dashboard | Flux 100% Vérifiés</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #090d16;
+            --card-bg: rgba(22, 30, 49, 0.7);
+            --border: rgba(255, 255, 255, 0.08);
+            --primary: #3b82f6;
+            --primary-glow: rgba(59, 130, 246, 0.35);
+            --success: #10b981;
+            --text-main: #f8fafc;
+            --text-muted: #94a3b8;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: 'Outfit', sans-serif;
+            background: radial-gradient(circle at 50% 0%, #1e293b 0%, var(--bg) 100%);
+            color: var(--text-main);
+            min-height: 100vh;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+        }
+        .badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.4rem 1rem;
+            background: rgba(16, 185, 129, 0.15);
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            color: var(--success);
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+        .badge-dot {
+            width: 8px;
+            height: 8px;
+            background: var(--success);
+            border-radius: 50%;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.4; transform: scale(0.85); }
+        }
+        h1 {
+            font-size: 2.75rem;
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            margin-bottom: 0.75rem;
+            background: linear-gradient(135deg, #ffffff 0%, #94a3b8 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p.subtitle {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 1.25rem;
+            margin-bottom: 2.5rem;
+        }
+        .stat-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 1rem;
+            padding: 1.5rem;
+            backdrop-filter: blur(12px);
+        }
+        .stat-val {
+            font-size: 2.25rem;
+            font-weight: 800;
+            color: var(--primary);
+            line-height: 1;
+            margin-bottom: 0.5rem;
+        }
+        .stat-lbl {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .playlists-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: 1.5rem;
+        }
+        .playlist-card {
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 1.25rem;
+            padding: 1.75rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            backdrop-filter: blur(12px);
+            transition: all 0.25s ease;
+        }
+        .playlist-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(59, 130, 246, 0.4);
+            box-shadow: 0 12px 24px -10px var(--primary-glow);
+        }
+        .card-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            margin-bottom: 1rem;
+        }
+        .card-title {
+            font-size: 1.35rem;
+            font-weight: 700;
+        }
+        .card-count {
+            background: rgba(255, 255, 255, 0.05);
+            padding: 0.25rem 0.75rem;
+            border-radius: 0.5rem;
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--primary);
+        }
+        .card-desc {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 1.5rem;
+            line-height: 1.4;
+        }
+        .card-actions {
+            display: flex;
+            gap: 0.75rem;
+        }
+        .btn {
+            flex: 1;
+            padding: 0.75rem 1rem;
+            border-radius: 0.75rem;
+            font-family: inherit;
+            font-size: 0.9rem;
+            font-weight: 600;
+            cursor: pointer;
+            text-align: center;
+            text-decoration: none;
+            transition: all 0.2s;
+            border: none;
+        }
+        .btn-primary {
+            background: var(--primary);
+            color: #fff;
+        }
+        .btn-primary:hover {
+            background: #2563eb;
+            box-shadow: 0 4px 12px var(--primary-glow);
+        }
+        .btn-secondary {
+            background: rgba(255, 255, 255, 0.06);
+            color: var(--text-main);
+            border: 1px solid var(--border);
+        }
+        .btn-secondary:hover {
+            background: rgba(255, 255, 255, 0.12);
+        }
+        .toast {
+            position: fixed;
+            bottom: 2rem;
+            right: 2rem;
+            background: var(--success);
+            color: #000;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.75rem;
+            font-weight: 700;
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+            pointer-events: none;
+            box-shadow: 0 10px 25px rgba(16, 185, 129, 0.4);
+        }
+        .toast.show {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        footer {
+            text-align: center;
+            margin-top: 4rem;
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="badge">
+                <span class="badge-dot"></span>
+                Système Multi-Agents En Ligne
+            </div>
+            <h1>IPTV Autopilot</h1>
+            <p class="subtitle">Scraping continu GitHub, audit HLS haute cadence & synchronisation Box TV automatique toutes les 12 heures.</p>
+        </header>
+
+        <div class="stats-grid">
+            <div class="stat-card">
+                <div class="stat-val">1234</div>
+                <div class="stat-lbl">Flux 100% Opérationnels</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-val">146</div>
+                <div class="stat-lbl">Chaînes France & TNT</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-val">42</div>
+                <div class="stat-lbl">Cinéma & Films</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-val">12h</div>
+                <div class="stat-lbl">Fréquence d'actualisation</div>
+            </div>
+        </div>
+
+        <div class="playlists-grid">
+            <!-- France Card -->
+            <div class="playlist-card">
+                <div>
+                    <div class="card-top">
+                        <div class="card-title">🇫🇷 France & TNT</div>
+                        <div class="card-count">146 flux</div>
+                    </div>
+                    <div class="card-desc">Toutes les chaînes françaises vérifiées (TNT nationale, chaînes régionales, informations et fictions). Idéal pour votre Box.</div>
+                </div>
+                <div class="card-actions">
+                    <button class="btn btn-primary" onclick="copyUrl('https://psychokiller90.github.io/iptv-autopilot/playlists/france.m3u')">Copier le lien</button>
+                    <a class="btn btn-secondary" href="https://psychokiller90.github.io/iptv-autopilot/playlists/france.m3u" download>Télécharger</a>
+                </div>
+            </div>
+
+            <!-- Cinema Card -->
+            <div class="playlist-card">
+                <div>
+                    <div class="card-top">
+                        <div class="card-title">🎬 Cinéma & Films</div>
+                        <div class="card-count">42 flux</div>
+                    </div>
+                    <div class="card-desc">Chaînes dédiées au cinéma, films d'action, science-fiction, thrillers et rétrospectives.</div>
+                </div>
+                <div class="card-actions">
+                    <button class="btn btn-primary" onclick="copyUrl('https://psychokiller90.github.io/iptv-autopilot/playlists/cinema.m3u')">Copier le lien</button>
+                    <a class="btn btn-secondary" href="https://psychokiller90.github.io/iptv-autopilot/playlists/cinema.m3u" download>Télécharger</a>
+                </div>
+            </div>
+
+            <!-- Sports Card -->
+            <div class="playlist-card">
+                <div>
+                    <div class="card-top">
+                        <div class="card-title">⚽ Sports</div>
+                        <div class="card-count">18 flux</div>
+                    </div>
+                    <div class="card-desc">Flux de sports actifs, compétitions, chaînes fédérales et actualités sportives en direct.</div>
+                </div>
+                <div class="card-actions">
+                    <button class="btn btn-primary" onclick="copyUrl('https://psychokiller90.github.io/iptv-autopilot/playlists/sports.m3u')">Copier le lien</button>
+                    <a class="btn btn-secondary" href="https://psychokiller90.github.io/iptv-autopilot/playlists/sports.m3u" download>Télécharger</a>
+                </div>
+            </div>
+
+            <!-- Series Card -->
+            <div class="playlist-card">
+                <div>
+                    <div class="card-top">
+                        <div class="card-title">📺 Séries & Fictions</div>
+                        <div class="card-count">6 flux</div>
+                    </div>
+                    <div class="card-desc">Chaînes thématiques diffusant des séries 24h/24 sans interruption.</div>
+                </div>
+                <div class="card-actions">
+                    <button class="btn btn-primary" onclick="copyUrl('https://psychokiller90.github.io/iptv-autopilot/playlists/series.m3u')">Copier le lien</button>
+                    <a class="btn btn-secondary" href="https://psychokiller90.github.io/iptv-autopilot/playlists/series.m3u" download>Télécharger</a>
+                </div>
+            </div>
+
+            <!-- News Card -->
+            <div class="playlist-card">
+                <div>
+                    <div class="card-top">
+                        <div class="card-title">📰 Actualités</div>
+                        <div class="card-count">55 flux</div>
+                    </div>
+                    <div class="card-desc">Chaînes d'information en continu (France 24, BFM, Euronews, etc.) mondiales et francophones.</div>
+                </div>
+                <div class="card-actions">
+                    <button class="btn btn-primary" onclick="copyUrl('https://psychokiller90.github.io/iptv-autopilot/playlists/news.m3u')">Copier le lien</button>
+                    <a class="btn btn-secondary" href="https://psychokiller90.github.io/iptv-autopilot/playlists/news.m3u" download>Télécharger</a>
+                </div>
+            </div>
+
+            <!-- All Card -->
+            <div class="playlist-card">
+                <div>
+                    <div class="card-top">
+                        <div class="card-title">🌐 Playlist Globale</div>
+                        <div class="card-count">1234 flux</div>
+                    </div>
+                    <div class="card-desc">L'intégralité des flux fonctionnels découverts à travers le monde, triés par catégories et logos.</div>
+                </div>
+                <div class="card-actions">
+                    <button class="btn btn-primary" onclick="copyUrl('https://psychokiller90.github.io/iptv-autopilot/playlists/all.m3u')">Copier le lien</button>
+                    <a class="btn btn-secondary" href="https://psychokiller90.github.io/iptv-autopilot/playlists/all.m3u" download>Télécharger</a>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Dernier audit automatique : 02/11/2026 à 14:59:37 • Hébergé gratuitement sur GitHub Pages</p>
+        </footer>
+    </div>
+
+    <div id="toast" class="toast">Lien copié dans le presse-papier !</div>
+
+    <script>
+        function copyUrl(url) {
+            navigator.clipboard.writeText(url).then(() => {
+                const toast = document.getElementById('toast');
+                toast.classList.add('show');
+                setTimeout(() => toast.classList.remove('show'), 2500);
+            });
+        }
+    </script>
+</body>
+</html>

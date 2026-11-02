@@ -1,0 +1,7 @@
+#EXTM3U name="IPTV MT"
+#EXTINF:-1 tvg-id="One.mt" tvg-name="One" tvg-logo="https://i.imgur.com/UPlfzFx.png" group-title="General",One
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://2-fss-1.streamhoster.com/pl_148/201830-1293592-1/playlist.m3u8
+#EXTINF:-1 tvg-id="SmashTV.mt" tvg-name="Smash TV" tvg-logo="https://i.imgur.com/ZKF0fG3.png" group-title="General",Smash TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://stream.smashmalta.com/live/webplayer/livestream/1.m3u8

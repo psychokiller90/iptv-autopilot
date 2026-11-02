@@ -1,0 +1,7 @@
+#EXTM3U name="IPTV KZ"
+#EXTINF:-1 tvg-id="Balapan.kz" tvg-name="Balapan TV" tvg-logo="" group-title="General",Balapan TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://balapantv-stream.qazcdn.com/balapantv/balapantv/playlist.m3u8
+#EXTINF:-1 tvg-id="QazaqstanInternational.kz" tvg-name="Qazaqstan" tvg-logo="" group-title="General",Qazaqstan
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://qazaqstantv-stream.qazcdn.com/international/international/playlist.m3u8

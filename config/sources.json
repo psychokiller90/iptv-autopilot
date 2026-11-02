@@ -1,0 +1,68 @@
+{
+  "seed_sources": [
+    {
+      "name": "iptv-org-france",
+      "url": "https://raw.githubusercontent.com/iptv-org/iptv/master/streams/fr.m3u",
+      "country": "FR",
+      "type": "m3u"
+    },
+    {
+      "name": "iptv-org-movies",
+      "url": "https://raw.githubusercontent.com/iptv-org/iptv/master/categories/movies.m3u",
+      "country": "ALL",
+      "type": "m3u"
+    },
+    {
+      "name": "iptv-org-sports",
+      "url": "https://raw.githubusercontent.com/iptv-org/iptv/master/categories/sports.m3u",
+      "country": "ALL",
+      "type": "m3u"
+    },
+    {
+      "name": "iptv-org-series",
+      "url": "https://raw.githubusercontent.com/iptv-org/iptv/master/categories/series.m3u",
+      "country": "ALL",
+      "type": "m3u"
+    },
+    {
+      "name": "iptv-org-news",
+      "url": "https://raw.githubusercontent.com/iptv-org/iptv/master/categories/news.m3u",
+      "country": "ALL",
+      "type": "m3u"
+    },
+    {
+      "name": "dcmp-github",
+      "url": "https://raw.githubusercontent.com/bermufine/dcmp/refs/heads/main/README.md",
+      "country": "FR",
+      "type": "dcmp_markdown"
+    },
+    {
+      "name": "free-tv-global",
+      "url": "https://raw.githubusercontent.com/Free-TV/IPTV/master/playlist.m3u8",
+      "country": "ALL",
+      "type": "m3u"
+    }
+  ],
+  "github_search_queries": [
+    "filename:*.m3u iptv france",
+    "filename:*.m3u8 iptv french",
+    "path:streams filename:*.m3u"
+  ],
+  "categories_mapping": {
+    "General": ["généraliste", "general", "tnt", "national"],
+    "News": ["news", "info", "information", "actualité", "journal"],
+    "Movies": ["movies", "cinema", "cinéma", "film", "films"],
+    "Series": ["series", "séries", "fiction", "drama", "action"],
+    "Sports": ["sports", "sport", "football", "rugby", "basket", "tennis", "racing"],
+    "Music": ["music", "musique", "clip", "concert"],
+    "Kids": ["kids", "jeunesse", "enfant", "enfants", "animation", "cartoons", "anime"],
+    "Documentary": ["documentary", "documentaires", "histoire", "nature", "science", "discovery"]
+  },
+  "blacklist_keywords": [
+    "offline",
+    "test only",
+    "placeholder",
+    "xxx",
+    "adult"
+  ]
+}

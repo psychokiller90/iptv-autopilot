@@ -1,0 +1,22 @@
+#EXTM3U name="IPTV AT"
+#EXTINF:-1 tvg-id="ORFIII.at" tvg-name="ORF III" tvg-logo="https://i.imgur.com/6BuiUE7.png" group-title="General",ORF III Ⓖ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://orf3.mdn.ors.at/orf/orf3/qxa/manifest.m3u8
+#EXTINF:-1 tvg-id="ServusTVOsterreich.at" tvg-name="Servus TV" tvg-logo="https://i.imgur.com/zDWhSxq.png" group-title="General",Servus TV Ⓖ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://rbmn-live.akamaized.net/hls/live/2002825/geoSTVATweb/master.m3u8
+#EXTINF:-1 tvg-id="Oe24TV.at" tvg-name="oe24" tvg-logo="https://i.imgur.com/8UTkcPn.png" group-title="General",oe24
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://oe24.mdn.ors.at/live/eds/oe24tv_hd/hls_nodrm/oe24tv_hd-nodrm.m3u8
+#EXTINF:-1 tvg-id="W24.at" tvg-name="W24" tvg-logo="https://i.imgur.com/PGb4wYw.png" group-title="General",W24
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ms01.w24.at/W24/smil:liveevent.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="RTV.at" tvg-name="RTV" tvg-logo="https://i.imgur.com/oD7GQxT.png" group-title="General",RTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://iptv.rtv-ooe.at/stream.m3u8
+#EXTINF:-1 tvg-id="TirolTV.at" tvg-name="Tirol TV" tvg-logo="https://i.imgur.com/1E7Nflo.jpg" group-title="General",Tirol TV Ⓖ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://streaming14.huberwebmedia.at/LiveApp/streams/livestream.m3u8
+#EXTINF:-1 tvg-id="R9.at" tvg-name="R9" tvg-logo="https://i.imgur.com/2fxVYsL.jpg" group-title="General",R9
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://ms01.w24.at/R9/smil:liveeventR9.smil/playlist.m3u8

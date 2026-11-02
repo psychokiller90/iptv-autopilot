@@ -1,0 +1,7 @@
+#EXTM3U name="IPTV AM"
+#EXTINF:-1 tvg-id="KentronTV.am" tvg-name="Kentron TV" tvg-logo="https://i.imgur.com/eCaxBFn.png" group-title="General",Kentron TV Ⓢ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://stream.mcquack.net/39/index.m3u8
+#EXTINF:-1 tvg-id="ArmeniaTV.am" tvg-name="Armenia TV" tvg-logo="https://i.imgur.com/UnoI5uM.png" group-title="General",Armenia TV Ⓢ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://stream.mcquack.net/175/index.m3u8
