@@ -65,7 +65,9 @@ Vous pouvez piloter vos agents à tout moment sans aucun terminal :
 2. **Ajouter de nouvelles sources :**
    * Modifiez le fichier `config/sources.json` directement depuis l'interface web de GitHub.
    * Vos agents prendront automatiquement en compte les nouvelles adresses au prochain passage !
-3. **Mettre en pause les agents :**
+3. **Notifications Telegram :**
+   * Un compte-rendu avec le nombre de flux opérationnels vous est envoyé sur Telegram par [@iptvupinfosupdate_bot](https://t.me/iptvupinfosupdate_bot) après chaque audit.
+4. **Mettre en pause les agents :**
    * Dans l'onglet **Actions**, cliquez sur les trois petits points `...` à côté du workflow et choisissez **Disable workflow**.
 
 ---
