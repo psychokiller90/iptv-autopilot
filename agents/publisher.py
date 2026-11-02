@@ -46,7 +46,8 @@ class PublisherAgent:
         # 3. Génération des fichiers M3U modulaires
         self._write_m3u(f"{self.output_dir}/tv_box.m3u", tv_box_channels, "IPTV Box TV - Sélection Complète")
         self._write_m3u(f"{self.output_dir}/all.m3u", channels, "IPTV Global - 100% Validé")
-        self._write_m3u(f"{self.output_dir}/france.m3u", france_channels, "IPTV France & Francophonie")
+        self._write_m3u(f"{self.output_dir}/france.m3u", tv_box_channels, "IPTV France & Box TV - Sélection Complète")
+
         self._write_m3u(f"{self.output_dir}/cinema.m3u", movies_channels, "IPTV Cinéma & Films")
         self._write_m3u(f"{self.output_dir}/sports.m3u", sports_channels, "IPTV Sports")
         self._write_m3u(f"{self.output_dir}/series.m3u", series_channels, "IPTV Séries & Fictions")
