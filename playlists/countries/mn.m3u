@@ -44,7 +44,7 @@ https://cdn4.skygo.mn/live/disk1/C1/HLSv3-FTA/C1.m3u8
 #EXTINF:-1 tvg-id="CentralTV.mn" tvg-name="Central HD" tvg-logo="" group-title="General",Central HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://cdn4.skygo.mn/live/disk1/Ekh_Oron/HLSv3-FTA/Ekh_Oron.m3u8
-#EXTINF:-1 tvg-id="MovieBox.mn" tvg-name="MovieBox" tvg-logo="" group-title="General",MovieBox
+#EXTINF:-1 tvg-id="MovieBox.mn" tvg-name="MovieBox" tvg-logo="" group-title="Movies",MovieBox
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://cdn4.skygo.mn/live/disk1/Moviebox/HLSv3-FTA/Moviebox.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="CNBC MGL" tvg-logo="" group-title="General",CNBC MGL
@@ -104,7 +104,7 @@ https://cdn4.skygo.mn/live/disk1/MNCTV/HLSv3-FTA/MNCTV.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Bantan" tvg-logo="" group-title="General",Bantan
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://cdn4.skygo.mn/live/disk1/Popcorn/HLSv3-FTA/Popcorn.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Auto TV (720p)" tvg-logo="" group-title="General",Auto TV (720p)
+#EXTINF:-1 tvg-id="" tvg-name="Auto TV (720p)" tvg-logo="" group-title="Sports",Auto TV (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://cdn4.skygo.mn/live/disk1/AutoTV/HLSv3-FTA/AutoTV.m3u8
 #EXTINF:-1 tvg-id="BloombergTVMongolia.mn" tvg-name="Bloomberg TV Mongolia HD (720p)" tvg-logo="" group-title="General",Bloomberg TV Mongolia HD (720p)

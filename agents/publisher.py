@@ -37,7 +37,14 @@ class PublisherAgent:
             country = c.get("country", "GLOBAL")
             countries_dict.setdefault(country, []).append(c)
 
-        # 2. Génération des fichiers M3U modulaires
+        # 2. Génération de la sélection Box TV (France + Toutes les thématiques Cinéma, Sports, Séries, News, etc.)
+        tv_box_dict = {}
+        for c in (france_channels + movies_channels + sports_channels + series_channels + news_channels + kids_channels + music_channels):
+            tv_box_dict[c["url"]] = c
+        tv_box_channels = list(tv_box_dict.values())
+
+        # 3. Génération des fichiers M3U modulaires
+        self._write_m3u(f"{self.output_dir}/tv_box.m3u", tv_box_channels, "IPTV Box TV - Sélection Complète")
         self._write_m3u(f"{self.output_dir}/all.m3u", channels, "IPTV Global - 100% Validé")
         self._write_m3u(f"{self.output_dir}/france.m3u", france_channels, "IPTV France & Francophonie")
         self._write_m3u(f"{self.output_dir}/cinema.m3u", movies_channels, "IPTV Cinéma & Films")
@@ -51,10 +58,11 @@ class PublisherAgent:
             if country_code not in ("GLOBAL", "ALL") and len(c_list) >= 2:
                 self._write_m3u(f"{self.output_dir}/countries/{country_code.lower()}.m3u", c_list, f"IPTV {country_code}")
 
-        # 3. Génération du rapport Markdown
+        # 4. Génération du rapport Markdown
         stats = {
             "timestamp": timestamp_str,
             "total_valid": len(channels),
+            "tv_box_count": len(tv_box_channels),
             "france_count": len(france_channels),
             "movies_count": len(movies_channels),
             "sports_count": len(sports_channels),
@@ -64,6 +72,7 @@ class PublisherAgent:
             "kids_count": len(kids_channels),
             "countries_count": len(countries_dict)
         }
+
         self._generate_report(stats, channels[:20])
 
         # 4. Génération du Dashboard Web HTML
@@ -82,24 +91,24 @@ class PublisherAgent:
             return
 
         text = (
-            "🚀 *IPTV Autopilot • Rapport d'Actualisation*\n\n"
-            f"📅 *Date :* {stats['timestamp']}\n"
-            f"🟢 *Total flux opérationnels :* *{stats['total_valid']}*\n\n"
-            "📊 *Détails par catégorie :*\n"
-            f"• 🇫🇷 *France & TNT :* {stats['france_count']} chaînes\n"
-            f"• 🎬 *Cinéma & Films :* {stats['movies_count']} chaînes\n"
-            f"• ⚽ *Sports :* {stats['sports_count']} chaînes\n"
-            f"• 📺 *Séries :* {stats['series_count']} chaînes\n"
-            f"• 📰 *Actualités :* {stats['news_count']} chaînes\n\n"
-            "📺 *Votre Box TV est à jour !*\n"
-            f"🌐 [Ouvrir le Dashboard Web]({self.base_url or 'https://psychokiller90.github.io/iptv-autopilot'})"
+            "🚀 <b>IPTV Autopilot • Rapport d'Actualisation</b>\n\n"
+            f"📅 <b>Date :</b> {stats['timestamp']}\n"
+            f"🟢 <b>Total flux opérationnels :</b> <b>{stats['total_valid']}</b>\n\n"
+            "📊 <b>Détails par catégorie :</b>\n"
+            f"• 🇫🇷 <b>France & TNT :</b> {stats['france_count']} chaînes\n"
+            f"• 🎬 <b>Cinéma & Films :</b> {stats['movies_count']} chaînes\n"
+            f"• ⚽ <b>Sports :</b> {stats['sports_count']} chaînes\n"
+            f"• 📺 <b>Séries :</b> {stats['series_count']} chaînes\n"
+            f"• 📰 <b>Actualités :</b> {stats['news_count']} chaînes\n\n"
+            "📺 <i>Votre Box TV est à jour !</i>\n"
+            f"🌐 <a href=\"{self.base_url or 'https://psychokiller90.github.io/iptv-autopilot'}\">Ouvrir le Dashboard Web</a>"
         )
         try:
             import urllib.request
             payload = json.dumps({
                 "chat_id": chat_id,
                 "text": text,
-                "parse_mode": "Markdown",
+                "parse_mode": "HTML",
                 "disable_web_page_preview": False
             }).encode("utf-8")
             req = urllib.request.Request(
@@ -111,6 +120,7 @@ class PublisherAgent:
                 logger.info("📱 Notification Telegram envoyée avec succès.")
         except Exception as e:
             logger.warning(f"⚠️ Échec notification Telegram : {e}")
+
 
 
     def _write_m3u(self, filepath: str, channels: List[Dict[str, Any]], title: str):
@@ -398,6 +408,21 @@ class PublisherAgent:
         </div>
 
         <div class="playlists-grid">
+            <!-- TV Box Selection Card -->
+            <div class="playlist-card" style="border-color: rgba(59, 130, 246, 0.6); background: rgba(30, 58, 138, 0.25);">
+                <div>
+                    <div class="card-top">
+                        <div class="card-title">🌟 Sélection Complète Box TV</div>
+                        <div class="card-count" style="color: #60a5fa; background: rgba(59, 130, 246, 0.2);">{stats.get('tv_box_count', stats['total_valid'])} flux</div>
+                    </div>
+                    <div class="card-desc">Le pack ultime pour votre Box : Toutes les chaînes françaises + Cinéma, Sports, Séries, Infos, Jeunesse et Musique triés dans des catégories dédiées.</div>
+                </div>
+                <div class="card-actions">
+                    <button class="btn btn-primary" onclick="copyUrl('{base}/playlists/tv_box.m3u')">Copier le lien</button>
+                    <a class="btn btn-secondary" href="{base}/playlists/tv_box.m3u" download>Télécharger</a>
+                </div>
+            </div>
+
             <!-- France Card -->
             <div class="playlist-card">
                 <div>
@@ -407,6 +432,7 @@ class PublisherAgent:
                     </div>
                     <div class="card-desc">Toutes les chaînes françaises vérifiées (TNT nationale, chaînes régionales, informations et fictions). Idéal pour votre Box.</div>
                 </div>
+
                 <div class="card-actions">
                     <button class="btn btn-primary" onclick="copyUrl('{base}/playlists/france.m3u')">Copier le lien</button>
                     <a class="btn btn-secondary" href="{base}/playlists/france.m3u" download>Télécharger</a>
