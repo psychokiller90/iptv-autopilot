@@ -1,7 +1,4 @@
 #EXTM3U name="IPTV CN"
-#EXTINF:-1 tvg-id="CCTV1.cn" tvg-name="CCTV-1 综合" tvg-logo="https://i.imgur.com/uHU6Vc0.png" group-title="General",CCTV-1 综合
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://74.91.26.218:82/live/cctv1hd.m3u8
 #EXTINF:-1 tvg-id="CCTV3.cn" tvg-name="CCTV-3 综艺" tvg-logo="https://i.imgur.com/Mh1N35D.png" group-title="General",CCTV-3 综艺
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://74.91.26.218:82/live/cctv3hd.m3u8

@@ -56,9 +56,15 @@ http://141.94.193.53:80/M4_Sport_HD/index.m3u8
 #EXTINF:-1 tvg-id="DunaWorld.hu" tvg-name="Duna World / M4+ Sport" tvg-logo="https://i.imgur.com/DciAdFF.png" group-title="Sports",Duna World / M4+ Sport
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://141.94.193.53:80/Duna_World_M4_Sport+_HD/index.m3u8
+#EXTINF:-1 tvg-id="Sport1.hu" tvg-name="Sport1" tvg-logo="https://www.tvmustra.hu/logok/csatikon/sport1.gif" group-title="Sports",Sport1 Ⓖ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://141.94.193.53:80/Sport_1_HD/index.m3u8
 #EXTINF:-1 tvg-id="Sport2.hu" tvg-name="Sport2" tvg-logo="https://www.tvmustra.hu/logok/csatikon/sport2.gif" group-title="Sports",Sport2 Ⓖ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://141.94.193.53:80/Sport_2_HD/index.m3u8
+#EXTINF:-1 tvg-id="Eurosport1.hu" tvg-name="EuroSport1" tvg-logo="https://files.cdn.magio.tv/tv_logos/eurosport-1-hd.png" group-title="Sports",EuroSport1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://141.94.193.53:80/Eurosport_1_HD/index.m3u8
 #EXTINF:-1 tvg-id="Sportitalia.it" tvg-name="Sportitalia Plus" tvg-logo="https://i.imgur.com/hu56Ya5.png" group-title="Sports",Sportitalia Plus
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://sportsitalia-samsungitaly.amagi.tv/playlist.m3u8
@@ -68,6 +74,9 @@ https://64b16f23efbee.streamlock.net/servizio01/servizio01/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tele Golfo RTG" tvg-logo="https://hostux.pics/images/2026/09/11/23_tele_golfo_rtg82613af55dc2f27c.png" group-title="Sports",Tele Golfo RTG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://nrvideo1.newradio.it:1936/vmbjrayngd/vmbjrayngd/playlist.m3u8
+#EXTINF:-1 tvg-id="MNBSport.mn" tvg-name="MNB Sport" tvg-logo="" group-title="Sports",MNB Sport
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://live.mnb.mn/hls/mnb_sport.stream.m3u8
 #EXTINF:-1 tvg-id="ONTV.mn" tvg-name="N Sports" tvg-logo="" group-title="Sports",N Sports
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://cdn4.skygo.mn/live/disk1/ONTV/HLSv3-FTA/ONTV.m3u8
