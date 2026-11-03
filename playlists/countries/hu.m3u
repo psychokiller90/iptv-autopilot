@@ -47,6 +47,9 @@ http://141.94.193.53:80/Galaxy4_HD/index.m3u8
 #EXTINF:-1 tvg-id="DTV.hu" tvg-name="DTV" tvg-logo="https://i.imgur.com/YSpqmSO.png" group-title="General",DTV Ⓖ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://cloudfront44.lexanetwork.com:1344/relay44_1/livestream002.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="Sport1.hu" tvg-name="Sport1" tvg-logo="https://www.tvmustra.hu/logok/csatikon/sport1.gif" group-title="Sports",Sport1 Ⓖ
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://141.94.193.53:80/Sport_1_HD/index.m3u8
 #EXTINF:-1 tvg-id="Sport2.hu" tvg-name="Sport2" tvg-logo="https://www.tvmustra.hu/logok/csatikon/sport2.gif" group-title="Sports",Sport2 Ⓖ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://141.94.193.53:80/Sport_2_HD/index.m3u8
@@ -74,9 +77,12 @@ http://141.94.193.53:80/Viasat_Explore_HD/index.m3u8
 #EXTINF:-1 tvg-id="ViasatHistory.hu" tvg-name="Viasat History" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/9/9e/Viasat_History_2026.svg?utm_source=hu.wikipedia.org&utm_campaign=index&utm_content=original" group-title="General",Viasat History
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://141.94.193.53:80/Viasat_History_HD/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Viasat Nature" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0a/Viasat_Nature_2026.svg?utm_source=hu.wikipedia.org&utm_campaign=index&utm_content=original" group-title="Documentary",Viasat Nature
+#EXTINF:-1 tvg-id="Eurosport1.hu" tvg-name="EuroSport1" tvg-logo="https://files.cdn.magio.tv/tv_logos/eurosport-1-hd.png" group-title="Sports",EuroSport1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://141.94.193.53:80/Viasat_Nature_HD/index.m3u8
+http://141.94.193.53:80/Eurosport_1_HD/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Max4." tvg-logo="https://www.tvmustra.hu/logok/csatikon/max4.gif" group-title="General",Max4.
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://141.94.193.53:80/MAX4_HD/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Nat Geo" tvg-logo="https://www.tvmustra.hu/logok/csatikon/nghd.gif" group-title="Documentary",Nat Geo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://141.94.193.53:80/Nat_Geo_HD/index.m3u8
@@ -104,9 +110,6 @@ http://88.212.7.14/live/test_rtl_plus_hungary_1200_atk/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Sorozat+" tvg-logo="https://www.tvmustra.hu/logok/csatikon/sorozatplussz.gif" group-title="General",Sorozat+
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://88.212.7.14/live/test_sorozat_hungary_1200_atk/playlist.m3u8
-#EXTINF:-1 tvg-id="BonumTV.hu" tvg-name="EWTN TV" tvg-logo="https://katolikus.tv/wp-content/themes/bonum/img/ewtn-badge.jpg" group-title="General",EWTN TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://hls.iptvservice.eu/hls/ewtn-hd.m3u8
 #EXTINF:-1 tvg-id="ApostolTV.hu" tvg-name="Apostol TV" tvg-logo="https://www.apostoltv.hu/images/header-logo.png" group-title="General",Apostol TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live.apostoltv.hu/live/playlist.m3u8
@@ -116,6 +119,9 @@ https://oxygenmusic.hu:2443/hls/oxygenmusic.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Dance TV" tvg-logo="" group-title="Music",Dance TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Parlamenti közvetítés" tvg-logo="" group-title="General",Parlamenti közvetítés
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://plenaris.parlament.hu:446/edgelive/smil:mkogyplen.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="BalatonTV.hu" tvg-name="Balaton TV" tvg-logo="https://i.imgur.com/ip8L5Vt.jpg" group-title="General",Balaton TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stream.iptvservice.eu/hls/balatontv.m3u8
@@ -158,6 +164,9 @@ https://cloudfront44.lexanetwork.com:1344/relay01/broadcast007.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Kanizsa TV" tvg-logo="" group-title="General",Kanizsa TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://cloudfront44.lexanetwork.com:1344/freerelay/kanizsavtv.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Líceum TV" tvg-logo="" group-title="General",Líceum TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://193.225.32.62:8890/live.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Hegyvidék TV (Buda TV)" tvg-logo="https://hegyvidektv.hu/wp-content/uploads/2025/05/BUDATV_logo_picon.png" group-title="General",Hegyvidék TV (Buda TV)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://budatv.streaming.aiproduction.hu/playlist.m3u
@@ -167,30 +176,6 @@ https://cloudfront44.lexanetwork.com:1344/relay44_1/HDE040.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="KomaromiTelevizio.hu" tvg-name="Komáromi Televízió" tvg-logo="" group-title="General",Komáromi Televízió
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://cloudfront44.lexanetwork.com:1344/relay01/HDE017.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="KossuthRadio.hu" tvg-name="Kossuth Rádió" tvg-logo="https://upload.wikimedia.org/wikipedia/hu/6/69/Mr1.png?utm_source=hu.wikipedia.org&utm_campaign=index&utm_content=original" group-title="General",Kossuth Rádió
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://budapest-cache-1.antik.sk/live/kossuth_radio/index.m3u8
-#EXTINF:-1 tvg-id="PetofiRadio.hu" tvg-name="Petőfi Rádió" tvg-logo="https://upload.wikimedia.org/wikipedia/hu/0/0c/MR2-Pet%C5%91fi.png?utm_source=hu.wikipedia.org&utm_campaign=index&utm_content=original" group-title="General",Petőfi Rádió
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://budapest-cache-1.antik.sk/live/petofi_radio/index.m3u8
 #EXTINF:-1 tvg-id="BartokRadio.hu" tvg-name="Bartók Rádió" tvg-logo="https://upload.wikimedia.org/wikipedia/hu/c/ce/MR3-BARTOK.png?utm_source=hu.wikipedia.org&utm_campaign=index&utm_content=original" group-title="General",Bartók Rádió
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://budapest-cache-1.antik.sk/live/bartok_radio/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Rádió1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/52/Radio1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="General",Rádió1
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://budapest-cache-1.antik.sk/live/radio_1/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Retró Rádió" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6c/Retroradio.svg/revision/latest?cb=20210520195847" group-title="General",Retró Rádió
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://budapest-cache-1.antik.sk/live/retro/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Juventus Rádió" tvg-logo="https://myonlineradio.hu/public/uploads/radio_img/juventus-radio/play_250_250.webp" group-title="General",Juventus Rádió
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://budapest-cache-1.antik.sk/live/juventus/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Hír FM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/0/0d/HirFM_logo.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="General",Hír FM
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://budapest-cache-1.antik.sk/live/hir_rm/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Spirit FM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/15/Spiritfm876logo.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="General",Spirit FM
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://budapest-cache-1.antik.sk/live/spirit_fm/index.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Sláger FM" tvg-logo="https://myonlineradio.hu/public/uploads/radio_img/slager-fm/play_250_250.webp" group-title="General",Sláger FM
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://budapest-cache-1.antik.sk/live/slager/index.m3u8

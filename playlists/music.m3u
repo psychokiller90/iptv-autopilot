@@ -182,6 +182,9 @@ https://cdn4.skygo.mn/live/disk1/Khugjim/HLSv3-FTA/Khugjim.m3u8
 #EXTINF:-1 tvg-id="JazzTV.mk" tvg-name="Jazz TV" tvg-logo="https://i.imgur.com/4U6Ju5G.png" group-title="Music",Jazz TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stream.nasatv.com.mk/jazztv/hls/jazztv_live.m3u8
+#EXTINF:-1 tvg-id="RockTV.mk" tvg-name="Rock TV" tvg-logo="https://i.imgur.com/Y9miDQo.png" group-title="Music",Rock TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://stream.nasatv.com.mk/rocktv/hls/rocktv_live.m3u8
 #EXTINF:-1 tvg-id="Pop.uk" tvg-name="Pop" tvg-logo="https://upload.wikimedia.org/wikipedia/en/thumb/3/36/Pop_UK_TV_Logo_%282015%29.svg/500px-Pop_UK_TV_Logo_%282015%29.svg.png" group-title="Music",Pop Ⓢ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://amg01753-narrativeentert-popkids-lggb-xyy5k.amagi.tv/ts-eu-w1-n2/playlist/amg01753-narrativeentert-popkids-lggb/playlist.m3u8

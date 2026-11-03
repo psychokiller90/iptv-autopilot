@@ -8,9 +8,6 @@ http://89.201.163.244:8080/hls/hdmi.m3u8
 #EXTINF:-1 tvg-id="SBTV.hr" tvg-name="SBTV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a2/SBTV_Logo.svg/500px-SBTV_Logo.svg.png" group-title="General",SBTV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live.leveex.hr/hls/live.m3u8
-#EXTINF:-1 tvg-id="KanalRi.hr" tvg-name="Kanal Ri" tvg-logo="https://kanal-ri.hr/wp-content/uploads/2022/09/kanalRi_logo_v1.png" group-title="General",Kanal Ri
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://live.kanal-ri.click/LiveApp/streams/B6HK3voDwNsRQoLm1124882102135504.m3u8
 #EXTINF:-1 tvg-id="TVNova.hr" tvg-name="TV Nova" tvg-logo="https://upload.wikimedia.org/wikipedia/hr/c/c8/TVnova-logo.png" group-title="General",TV Nova
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stream.agatin.hr:3727/live/tvnovalive.m3u8

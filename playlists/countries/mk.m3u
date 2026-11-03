@@ -8,6 +8,9 @@ https://teve.mk/tvstanici/s1/playlist.m3u8
 #EXTINF:-1 tvg-id="TV21.mk" tvg-name="TV 21 Ⓢ" tvg-logo="https://i.imgur.com/IC1f4h3.png" group-title="General",TV 21 Ⓢ Ⓖ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://t2.tvmak.com/tv/TV21MK.m3u8?QScgsh2FfM
+#EXTINF:-1 tvg-id="Zdravkin" tvg-name="Телевизија Здравкин" tvg-logo="https://i.imgur.com/kSmcAER.png" group-title="General",Телевизија Здравкин
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://zdravkin.hugo.mk:1935/live/zdravkin/playlist.m3u8
 #EXTINF:-1 tvg-id="TV Orbis" tvg-name="Орбис" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/6/6f/Orbis-logo.png" group-title="General",Орбис
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://tvorbis.hugo.mk:1935/live/orbis/index.m3u8
@@ -29,6 +32,9 @@ https://stream.nasatv.com.mk/jazztv/hls/jazztv_live.m3u8
 #EXTINF:-1 tvg-id="LoveTV.mk" tvg-name="Love TV" tvg-logo="https://i.imgur.com/B8iaejQ.png" group-title="General",Love TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stream.nasatv.com.mk/lovetv/hls/lovetv_live.m3u8
+#EXTINF:-1 tvg-id="RockTV.mk" tvg-name="Rock TV" tvg-logo="https://i.imgur.com/Y9miDQo.png" group-title="Music",Rock TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://stream.nasatv.com.mk/rocktv/hls/rocktv_live.m3u8
 #EXTINF:-1 tvg-id="SkyFolkTV.mk" tvg-name="Sky Folk" tvg-logo="https://i.imgur.com/xRw4Hmu.png" group-title="General",Sky Folk
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://skyfolk.mk/live.m3u8

@@ -236,6 +236,9 @@ https://figarotv-live.freecaster.com/live/freecaster/figarotv.m3u8
 #EXTINF:-1 tvg-id="LeFigaroTVIledeFrance.fr@SD" tvg-name="Le Figaro IDF (720p)" tvg-logo="" group-title="General",Le Figaro IDF (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://static.lefigaro.fr/secom/tnt.m3u8
+#EXTINF:-1 tvg-id="M6.fr@HD" tvg-name="M6 (1080p)" tvg-logo="" group-title="General",M6 (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
+http://99.27.51.147:8080/M6/index.m3u8
 #EXTINF:-1 tvg-id="MDL.fr@SD" tvg-name="MDL (720p)" tvg-logo="" group-title="General",MDL (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://tv.mondeduloisir.fr:1935/tixtv/smil:web.smil/playlist.m3u8
@@ -314,6 +317,9 @@ http://194.163.157.137:8080/hls/radiomulhouse.m3u8
 #EXTINF:-1 tvg-id="ViaMatele.fr@SD" tvg-name="ViàMatélé (1080p)" tvg-logo="" group-title="General",ViàMatélé (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://5dd226f8f01e8.streamlock.net/via-matele-live/matelelive_1080/playlist.m3u8
+#EXTINF:-1 tvg-id="viaTelePaese.fr@SD" tvg-name="viàTéléPaese (720p)" tvg-logo="" group-title="General",viàTéléPaese (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://srv.webtvmanager.fr:3970/live/viatelepaeselive.m3u8
 #EXTINF:-1 tvg-id="VosgesTV.fr@SD" tvg-name="Vosges Télévision (576p) [Not 24/7]" tvg-logo="" group-title="General",Vosges Télévision (576p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8
@@ -338,6 +344,9 @@ https://mumbai-edge.smartplaytv.in/france24/index.m3u8
 #EXTINF:-1 tvg-id="AfricanewsEnglish.fr@SD" tvg-name="Africanews English (720p)" tvg-logo="" group-title="News",Africanews English (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://mumbai-edge.smartplaytv.in/AfricaNews/index.m3u8
+#EXTINF:-1 tvg-id="Europe1TV.fr@HD" tvg-name="Europe 1 TV (1080p)" tvg-logo="" group-title="General",Europe 1 TV (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/misc/europe-1-tv-dm.m3u8
 #EXTINF:-1 tvg-id="W9.fr@SD" tvg-name="W9 (1086p)" tvg-logo="" group-title="General",W9 (1086p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://5.180.164.197:8080/W9/index.m3u8
@@ -464,6 +473,9 @@ http://138.68.138.119:8080/low/5a8993709ea19/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="KC2 TV / Rwanda" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfQjI8jUhMPReWg0MOdw1xpAAXMP7YAuZKBg&usqp=CAU" group-title="Movies",KC2 TV / Rwanda
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://5c46fa289c89f.streamlock.net/kc2/kc2/chunklist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="PLEX TV /" tvg-logo="https://www.lifetimepremiumaccounts.com/wp-content/uploads/2019/03/plex-logo.jpg" group-title="Movies",PLEX TV /
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://connectiktv.ddns.net:5000/plextv/@plextv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Radio Tele Puissance" tvg-logo="https://radioendirect.net/assets/images/radio/item/119251.jpg" group-title="Movies",Radio Tele Puissance
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://video1.getstreamhosting.com:1936/8560/8560/chunklist.m3u8
