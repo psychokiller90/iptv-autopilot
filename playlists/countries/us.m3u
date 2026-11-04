@@ -1,7 +1,4 @@
 #EXTM3U name="IPTV US"
-#EXTINF:-1 tvg-id="Buzzr.us" tvg-name="Buzzr" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Buzzr_logo.svg/960px-Buzzr_logo.svg.png" group-title="General",Buzzr Ⓖ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://23.237.104.106:8080/USA_BUZZR/index.m3u8
 #EXTINF:-1 tvg-id="RetroTVEast.us" tvg-name="Retro TV" tvg-logo="https://i.imgur.com/PNTYOgg.png" group-title="Movies",Retro TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lukentvlive.vgcdn.net/v1/master/cef183924f24adfa3d5d7601c3a17769082c0c2b/retro/index.m3u8
@@ -62,9 +59,6 @@ https://nmxlive.akamaized.net/hls/live/529965/Live_1/index.m3u8
 #EXTINF:-1 tvg-id="AmericaTeVe.us" tvg-name="America TeVe" tvg-logo="https://pbs.twimg.com/profile_images/2067373416173260801/9cUCY5wX_200x200.jpg" group-title="General",America TeVe
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live.gideo.video/americateve2/master.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Botflix TV" tvg-logo="https://i.imgur.com/JBEM8lP.png" group-title="General",Botflix TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://hls.botflix.tv/tv/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Botflix Radioo" tvg-logo="https://i.imgur.com/JBEM8lP.png" group-title="Music",Botflix Radioo
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://hls.botflix.tv/radioo/index.m3u8

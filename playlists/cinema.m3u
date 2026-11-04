@@ -17,9 +17,6 @@ http://138.68.138.119:8080/low/5a8993709ea19/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="KC2 TV / Rwanda" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfQjI8jUhMPReWg0MOdw1xpAAXMP7YAuZKBg&usqp=CAU" group-title="Movies",KC2 TV / Rwanda
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://5c46fa289c89f.streamlock.net/kc2/kc2/chunklist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PLEX TV /" tvg-logo="https://www.lifetimepremiumaccounts.com/wp-content/uploads/2019/03/plex-logo.jpg" group-title="Movies",PLEX TV /
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://connectiktv.ddns.net:5000/plextv/@plextv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Radio Tele Puissance" tvg-logo="https://radioendirect.net/assets/images/radio/item/119251.jpg" group-title="Movies",Radio Tele Puissance
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://video1.getstreamhosting.com:1936/8560/8560/chunklist.m3u8
@@ -35,9 +32,6 @@ https://stream.mediawork.cz/retrotv/smil:retrotv2.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="Action24TV.gr" tvg-name="Action24" tvg-logo="https://i.imgur.com/Zi1YohT.png" group-title="Movies",Action24
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://actionlive.siliconweb.com/actionabr/actiontv/playlist.m3u8
-#EXTINF:-1 tvg-id="Film+.hu" tvg-name="Film+" tvg-logo="https://www.tvmustra.hu/logok/csatikon/filmplussz.gif" group-title="Movies",Film+
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://141.94.193.53:80/Film+_HD/index.m3u8
 #EXTINF:-1 tvg-id="Film4.hu" tvg-name="Film4" tvg-logo="https://www.tvmustra.hu/logok/csatikon/film4.gif" group-title="Movies",Film4 Ⓖ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://141.94.193.53:80/Film4_HD/index.m3u8
@@ -128,9 +122,6 @@ http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5b4e94282d4ec87bdcb
 #EXTINF:-1 tvg-id="" tvg-name="Classic Movies" tvg-logo="https://i.imgur.com/feWPHep.png" group-title="Movies",Classic Movies
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/561c5b0dada51f8004c4d855/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=106&deviceId=561c5b0dada51f8004c4d855&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
-#EXTINF:-1 tvg-id="" tvg-name="Pluto TV Cult Films" tvg-logo="https://i.imgur.com/kD3SkoC.png" group-title="Movies",Pluto TV Cult Films
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5c665db3e6c01b72c4977bc2/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=109&deviceId=5c665db3e6c01b72c4977bc2&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
 #EXTINF:-1 tvg-id="" tvg-name="Flicks of Fury" tvg-logo="https://i.imgur.com/yhyzBfb.png" group-title="Movies",Flicks of Fury
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/58e55b14ad8e9c364d55f717/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=112&deviceId=58e55b14ad8e9c364d55f717&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
