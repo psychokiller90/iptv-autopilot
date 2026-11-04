@@ -38,6 +38,9 @@ https://telmaco.ascdn.broadpeak.io/nafteboriki/default/index.m3u8
 #EXTINF:-1 tvg-id="OneChannel.gr" tvg-name="One Channel" tvg-logo="https://i.imgur.com/GwKaHbM.png" group-title="General",One Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://onechannel.siliconweb.com/one/stream/chunks_dvr.m3u8
+#EXTINF:-1 tvg-id="egnatiatv.gr" tvg-name="Egnatia" tvg-logo="https://i.imgur.com/zuyYIca.png" group-title="General",Egnatia
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u
 #EXTINF:-1 tvg-id="eurotv.gr" tvg-name="Euro" tvg-logo="https://i.imgur.com/mHCk05E.png" group-title="General",Euro
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live20.bozztv.com/akamaissh101/ssh101/eurotvlive/playlist.m3u8
@@ -65,12 +68,18 @@ https://fr.crystalweb.net:1936/lepantotv/lepantotv/playlist.m3u8
 #EXTINF:-1 tvg-id="lychnostv.gr" tvg-name="Lychnos" tvg-logo="hhttps://i.imgur.com/JYSlBfY.png" group-title="General",Lychnos
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://thor.mental-media.gr:19360/imp/imp.m3u8
+#EXTINF:-1 tvg-id="epsilon.gr" tvg-name="Epsilon" tvg-logo="https://i.imgur.com/vUQSDvZ.png" group-title="General",Epsilon
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://neon.streams.gr:8081/epsilontv/index.m3u8
 #EXTINF:-1 tvg-id="nrg91.gr" tvg-name="91NRG" tvg-logo="https://i.imgur.com/g1pCRRG.png" group-title="General",91NRG
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://tv.nrg91.gr:1935/onweb/live/master.m3u8
 #EXTINF:-1 tvg-id="astratv.gr" tvg-name="Astra" tvg-logo="https://i.imgur.com/oYRPfZm.png" group-title="General",Astra
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://server.gointernet.gr/live/livestream.m3u8
+#EXTINF:-1 tvg-id="trttv.gr" tvg-name="TRT" tvg-logo="https://i.imgur.com/g0jPOcC.png" group-title="General",TRT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://av.hellasnet.tv/rst/trt/index.m3u8
 #EXTINF:-1 tvg-id="acheloostv.gr" tvg-name="Acheloos" tvg-logo="https://i.imgur.com/5SVMxcu.png" group-title="General",Acheloos
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://acheloostv.streamings.gr/live/stream/index.m3u8
@@ -80,6 +89,9 @@ https://itv.streams.ovh:1936/corfuchannel/corfuchannel/playlist.m3u8
 #EXTINF:-1 tvg-id="CenterTV.gr" tvg-name="Center TV" tvg-logo="https://i.imgur.com/52JW71Q.png" group-title="General",Center TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://eu1.streams.gr:8081/centertv/index.m3u8
+#EXTINF:-1 tvg-id="DeltaTV.gr" tvg-name="Delta Evros" tvg-logo="https://i.imgur.com/PDfSkRF.png" group-title="General",Delta Evros
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://81.171.10.42:1935/liveD/DStream.sdp/chunklist_w819085920.m3u8
 #EXTINF:-1 tvg-id="CretaTV.gr" tvg-name="Creta" tvg-logo="https://i.imgur.com/x0qK8IE.png" group-title="General",Creta
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://live.streams.ovh:1935/tvcreta/tvcreta/playlist.m3u8
