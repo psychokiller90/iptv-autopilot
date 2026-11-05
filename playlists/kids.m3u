@@ -1,5 +1,5 @@
 #EXTM3U name="IPTV Jeunesse & Animation"
-#EXTINF:-1 tvg-id="Gulli.fr@SD" tvg-name="Gulli" tvg-logo="" group-title="Kids",Gulli
+#EXTINF:-1 tvg-id="Gulli.fr@SD" tvg-name="Gulli (1080p)" tvg-logo="" group-title="Kids",Gulli (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.3
 http://99.27.51.147:8080/Gulli/index.m3u8
 #EXTINF:-1 tvg-id="ABCKids.au" tvg-name="ABC Kids" tvg-logo="https://i.imgur.com/GWDRR1t.png" group-title="Kids",ABC Kids
