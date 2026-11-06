@@ -1,7 +1,7 @@
 #EXTM3U name="IPTV PE"
-#EXTINF:-1 tvg-id="PanamericanaTV.pe" tvg-name="Panamericana TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/26/Panamericana_tv_2009.png" group-title="General",Panamericana TV
+#EXTINF:-1 tvg-id="ATVPlus.pe" tvg-name="ATV+ Noticias" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/f/f4/Atv_noticias_logo.png" group-title="General",ATV+ Noticias
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://45.171.108.253:8888/PANAMERICANA/index.m3u8
+http://45.171.108.253:8888/ATV/index.m3u8
 #EXTINF:-1 tvg-id="Exitosa.pe" tvg-name="Exitosa (ex-Karibeña)" tvg-logo="https://i.pinimg.com/280x280_RS/11/85/b6/1185b667fe3f80d7072359d7ce7ce52d.jpg" group-title="General",Exitosa (ex-Karibeña)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://187.102.210.46/KARIBENA/index.m3u8
