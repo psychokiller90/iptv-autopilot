@@ -77,6 +77,9 @@ http://tv.nrg91.gr:1935/onweb/live/master.m3u8
 #EXTINF:-1 tvg-id="astratv.gr" tvg-name="Astra" tvg-logo="https://i.imgur.com/oYRPfZm.png" group-title="General",Astra
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://server.gointernet.gr/live/livestream.m3u8
+#EXTINF:-1 tvg-id="trttv.gr" tvg-name="TRT" tvg-logo="https://i.imgur.com/g0jPOcC.png" group-title="General",TRT
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://av.hellasnet.tv/rst/trt/index.m3u8
 #EXTINF:-1 tvg-id="acheloostv.gr" tvg-name="Acheloos" tvg-logo="https://i.imgur.com/5SVMxcu.png" group-title="General",Acheloos
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://acheloostv.streamings.gr/live/stream/index.m3u8
@@ -98,9 +101,6 @@ https://livetv.streams.ovh:8081/kriti/index.m3u8
 #EXTINF:-1 tvg-id="KritiTv.gr" tvg-name="Kriti TV" tvg-logo="https://i.imgur.com/eLhYMmc.png" group-title="General",Kriti TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://cretetvlive.siliconweb.com/cretetv/liveabr/playlist.m3u8
-#EXTINF:-1 tvg-id="NeaTV.gr" tvg-name="NEA" tvg-logo="https://i.imgur.com/nvNW8G7.png" group-title="General",NEA
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://live.neatv.gr:8888/hls/neatv_high/index.m3u8
 #EXTINF:-1 tvg-id="CenterTV.gr" tvg-name="Samiaki TV" tvg-logo="https://i.imgur.com/aV5QoNG.png" group-title="General",Samiaki TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://live.cast-control.eu:1935/samiaki/samiaki/playlist.m3u8
