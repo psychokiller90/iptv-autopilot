@@ -5,9 +5,6 @@ https://live.smotrim.ru/vgtrk/0/russia1-hd/index.m3u8
 #EXTINF:-1 tvg-id="RussiaK.ru" tvg-name="Россия-Культура" tvg-logo="https://i.imgur.com/S12gaLc.png" group-title="General",Россия-Культура Ⓢ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live.smotrim.ru/vgtrk/0/kultura-hd/index.m3u8
-#EXTINF:-1 tvg-id="Karusel.ru" tvg-name="Карусель" tvg-logo="https://i.imgur.com/4fFMlVq.png" group-title="General",Карусель Ⓢ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://streaming102.interskytech.com/live/232.m3u8
 #EXTINF:-1 tvg-id="TelekanalZvezda.ru" tvg-name="Звезда" tvg-logo="https://i.imgur.com/c0L0ncA.png" group-title="General",Звезда
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://tvchannelstream1.tvzvezda.ru/cdn/tvzvezda/playlist.m3u8
