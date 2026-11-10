@@ -11,9 +11,6 @@ https://5d94523502c2d.streamlock.net/alsharqiyalive/mystream/playlist.m3u8
 #EXTINF:-1 tvg-id="AlSharqiya.iq" tvg-name="Al-Sharqiya" tvg-logo="https://i.imgur.com/bPYyXNf.png" group-title="General",Al-Sharqiya
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://5d94523502c2d.streamlock.net/home/mystream/playlist.m3u8
-#EXTINF:-1 tvg-id="DijlahTV.iq" tvg-name="Dijlah TV" tvg-logo="https://i.imgur.com/FJEeYiz.png" group-title="General",Dijlah TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ghaasiflu.online/Dijlah/index.m3u8
 #EXTINF:-1 tvg-id="INews.iq" tvg-name="iNEWS" tvg-logo="https://i.imgur.com/PeuBkaH.png" group-title="News",iNEWS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live.i-news.tv/hls/stream.m3u8
