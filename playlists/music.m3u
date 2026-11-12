@@ -17,6 +17,9 @@ https://stream.ecable.tv/afrobeats/index.m3u8
 #EXTINF:-1 tvg-id="AlbKanaleMusicTV.al" tvg-name="AlbKanale Music TV" tvg-logo="https://i.imgur.com/JdKxscs.png" group-title="Music",AlbKanale Music TV Ⓢ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://albportal.net/albkanalemusic.m3u8
+#EXTINF:-1 tvg-id="JRTVJarviradio.fi" tvg-name="Järviradio TV" tvg-logo="https://jarviradio.fi/jrtv2/wp-content/uploads/2022/01/jrtv1.jpg" group-title="Music",Järviradio TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8
 #EXTINF:-1 tvg-id="DeluxeMusic.de" tvg-name="DELUXE MUSIC" tvg-logo="https://i.imgur.com/E65GQN9.png" group-title="Music",DELUXE MUSIC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
@@ -74,6 +77,9 @@ https://59d7d6f47d7fc.streamlock.net/canale51/canale51/chunklist_w1193883900.m3u
 #EXTINF:-1 tvg-id="" tvg-name="Radio Arancia TV" tvg-logo="https://hostux.pics/images/2026/09/11/05_radio_arancia_tv84cccbbd33923281.png" group-title="Music",Radio Arancia TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stream3.xdevel.com/video0s975447-164/stream/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Radio Bianconera TV" tvg-logo="https://hostux.pics/images/2026/09/11/06_radio_bianconera_tv4a5c7bf00662f7ba.png" group-title="Music",Radio Bianconera TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://tmw.fluid.stream/RadioBianconeraTV/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Radio Birikina Tv" tvg-logo="https://uaznao.com/wp-content/uploads/2023/03/radiobirikina.png" group-title="Music",Radio Birikina Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://tvd-bk.fluid.stream/RadioBirikinaTV/livestream/chunklist_w84398277.m3u8
@@ -116,6 +122,9 @@ https://4c4b867c89244861ac216426883d1ad0.msvdn.net/live/S62628868/uhdWBlkC1AoO/p
 #EXTINF:-1 tvg-id="" tvg-name="Radio Monte Kronio Tv (R.M.K.)" tvg-logo="https://i.imgur.com/t0I2Shi.jpg" group-title="Music",Radio Monte Kronio Tv (R.M.K.)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://648026e87a75e.streamlock.net/rmktv/rmktv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Radio Napoli Emme" tvg-logo="https://hostux.pics/images/2026/09/11/13_radio_napoli_emme7a755fab8578a752.png" group-title="Music",Radio Napoli Emme
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://rtmp.streams.ovh:1935/radionapoliemme/radionapoliemme/playlist.m3u8
 #EXTINF:-1 tvg-id="RadionorbaTV.it" tvg-name="Radio Norba Tv" tvg-logo="https://i.imgur.com/qftBPM9.png" group-title="Music",Radio Norba Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://router.xdevel.com/video0s975885-462/stream/playlist_dvr.m3u8
