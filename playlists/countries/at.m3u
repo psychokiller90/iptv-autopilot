@@ -5,9 +5,6 @@ https://orf3.mdn.ors.at/orf/orf3/qxa/manifest.m3u8
 #EXTINF:-1 tvg-id="ServusTVOsterreich.at" tvg-name="Servus TV" tvg-logo="https://i.imgur.com/zDWhSxq.png" group-title="General",Servus TV Ⓖ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://rbmn-live.akamaized.net/hls/live/2002825/geoSTVATweb/master.m3u8
-#EXTINF:-1 tvg-id="Oe24TV.at" tvg-name="oe24" tvg-logo="https://i.imgur.com/8UTkcPn.png" group-title="General",oe24
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://oe24.mdn.ors.at/live/eds/oe24tv_hd/hls_nodrm/oe24tv_hd-nodrm.m3u8
 #EXTINF:-1 tvg-id="W24.at" tvg-name="W24" tvg-logo="https://i.imgur.com/PGb4wYw.png" group-title="General",W24
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ms01.w24.at/W24/smil:liveevent.smil/playlist.m3u8
