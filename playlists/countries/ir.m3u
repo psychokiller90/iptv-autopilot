@@ -14,6 +14,6 @@ https://live.presstv.co.uk/hls/ifilmar.m3u8
 #EXTINF:-1 tvg-id="iFilmEnglish.ir" tvg-name="iFilm English" tvg-logo="https://i.imgur.com/RdC0DQk.png" group-title="Movies",iFilm English Ⓢ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live.presstv.co.uk/hls/ifilmen.m3u8
-#EXTINF:-1 tvg-id="PressTVFrench.ir" tvg-name="Press TV French" tvg-logo="https://i.imgur.com/X3YP2Gg.png" group-title="General",Press TV French
+#EXTINF:-1 tvg-id="AlalamNewsChannel.ir" tvg-name="Al-Alam News Network" tvg-logo="https://i.imgur.com/UbD0Ndr.png" group-title="News",Al-Alam News Network Ⓢ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://live4.presstv.ir/live/smil:presstvfr.smil/playlist.m3u8
+https://live2.alalam.ir/alalam.m3u8
