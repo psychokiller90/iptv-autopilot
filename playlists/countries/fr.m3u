@@ -181,9 +181,6 @@ https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_500.m3u8
 https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_500.m3u8
 #EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English (1080p)" tvg-logo="" group-title="News",France 24 English (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://freem3u.xyz/api/live/play.m3u8?vid=96
-#EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English (1080p)" tvg-logo="" group-title="News",France 24 English (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English (1080p)" tvg-logo="" group-title="News",France 24 English (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -197,9 +194,6 @@ https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_2300.m3u8
 #EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English (720p)" tvg-logo="" group-title="News",France 24 English (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_2300.m3u8
-#EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English (720p)" tvg-logo="" group-title="News",France 24 English (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://mumbai-edge.smartplaytv.in/france24/index.m3u8
 #EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English (576p)" tvg-logo="" group-title="News",France 24 English (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_900.m3u8
@@ -262,6 +256,9 @@ https://live.france24.com/hls/live/2037179-b/F24_FR_HI_HLS/master_500.m3u8
 https://live.france24.com/hls/live/2037179/F24_FR_HI_HLS/master_500.m3u8
 #EXTINF:-1 tvg-id="France24.fr@Spanish" tvg-name="France 24 Spanish (720p)" tvg-logo="" group-title="News",France 24 Spanish (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://138.121.15.230:9002/FRANCE-24/index.m3u8
+#EXTINF:-1 tvg-id="France24.fr@Spanish" tvg-name="France 24 Spanish (720p)" tvg-logo="" group-title="News",France 24 Spanish (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live-evg8.tv360.bitel.com.pe/bitel/france24SRT/playlist.m3u8
 #EXTINF:-1 tvg-id="GolfPlus.fr@SD" tvg-name="Golf + (1080p) [Geo-blocked]" tvg-logo="" group-title="Sports",Golf + (1080p) [Geo-blocked]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -275,6 +272,9 @@ http://99.27.51.147:8080/Gulli/index.m3u8
 #EXTINF:-1 tvg-id="HANDICAPTV.fr@SD" tvg-name="HANDICAP TV France" tvg-logo="" group-title="General",HANDICAP TV France
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://srv.webtvmanager.fr:3697/stream/play.m3u8
+#EXTINF:-1 tvg-id="ILTV.fr@SD" tvg-name="ILTV (720p)" tvg-logo="" group-title="General",ILTV (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://live.creacast.com/iltv/smil:iltv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LEquipe.fr@SD" tvg-name="L'Equipe (1080p)" tvg-logo="" group-title="General",L'Equipe (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 https://dq37unyetkpcz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-m04j89j7k5gtp/LEquipe_FR.m3u8
@@ -362,9 +362,6 @@ http://5.9.121.178/tv5monde/index.m3u8
 #EXTINF:-1 tvg-id="TV5MondeAsia.fr@SD" tvg-name="TV5Monde Asia (1080p)" tvg-logo="" group-title="General",TV5Monde Asia (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://freem3u.xyz/api/live/play.m3u8?vid=9852
-#EXTINF:-1 tvg-id="TV5MondeAsia.fr@SD" tvg-name="TV5Monde Asia" tvg-logo="" group-title="General",TV5Monde Asia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://202.150.165.66:8088/play/304-TV5Monde/index.m3u8
 #EXTINF:-1 tvg-id="TV5MONDEChefs.fr@SD" tvg-name="TV5MONDE Chefs (1080p)" tvg-logo="" group-title="General",TV5MONDE Chefs (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://tvf-tv5ch.otteravision.com/tvf/tv5ch/tv5ch.m3u8
@@ -386,9 +383,6 @@ http://194.163.157.137:8080/hls/radiomulhouse.m3u8
 #EXTINF:-1 tvg-id="ViaMatele.fr@SD" tvg-name="ViàMatélé (1080p)" tvg-logo="" group-title="General",ViàMatélé (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://5dd226f8f01e8.streamlock.net/via-matele-live/matelelive_1080/playlist.m3u8
-#EXTINF:-1 tvg-id="viaTelePaese.fr@SD" tvg-name="viàTéléPaese (720p)" tvg-logo="" group-title="General",viàTéléPaese (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://srv.webtvmanager.fr:3970/live/viatelepaeselive.m3u8
 #EXTINF:-1 tvg-id="VosgesTV.fr@SD" tvg-name="Vosges Télévision (576p) [Not 24/7]" tvg-logo="" group-title="General",Vosges Télévision (576p) [Not 24/7]
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://vosgestv.live-kd.com/live/vosgestv/vosgestv/playlist.m3u8
@@ -404,6 +398,9 @@ http://185.228.163.146:8000/play/a03z/index.m3u8
 #EXTINF:-1 tvg-id="Eurosport2.fr@Portugal" tvg-name="Eurosport 2 Portugal" tvg-logo="" group-title="Sports",Eurosport 2 Portugal
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://185.228.163.146:8000/play/a048/index.m3u8
+#EXTINF:-1 tvg-id="MCMPop.fr@SD" tvg-name="MCM Pop" tvg-logo="" group-title="Music",MCM Pop
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://176.65.153.78:8201/play/a070/index.m3u8
 #EXTINF:-1 tvg-id="TV5MondeInfo.fr@SD" tvg-name="TV5Monde Info (720p)" tvg-logo="" group-title="News",TV5Monde Info (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://tvf-tvfm.otteravision.com/tvf/tvfm/tvfm_720.m3u8
