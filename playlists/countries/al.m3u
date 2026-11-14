@@ -14,6 +14,9 @@ https://tv.balkanweb.com/news24/livestream/playlist.m3u8
 #EXTINF:-1 tvg-id="OraNews.al" tvg-name="Ora News" tvg-logo="https://i.imgur.com/ILZY5bJ.png" group-title="News",Ora News
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live1.mediadesk.al/oranews.m3u8
+#EXTINF:-1 tvg-id="Syri.al" tvg-name="Syri" tvg-logo="https://i.imgur.com/4zVyj1M.png" group-title="General",Syri
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://stream.syritv.al/live/syritv/playlist.m3u8
 #EXTINF:-1 tvg-id="TropojaTelevizion.al" tvg-name="Tropoja" tvg-logo="https://i.imgur.com/D3hNOVS.png" group-title="General",Tropoja
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live.prostream.al/al/smil:tropojatv.smil/playlist.m3u8

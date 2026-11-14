@@ -125,9 +125,6 @@ http://88.212.7.14/live/esp1_hun/index.m3u8
 #EXTINF:-1 tvg-id="Eurosport1.fr@Russia" tvg-name="Eurosport 1 Russia (1080p)" tvg-logo="" group-title="Sports",Eurosport 1 Russia (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://s7.iptv-24.net/1439/playlist.m3u8
-#EXTINF:-1 tvg-id="Eurosport1.fr@Spain" tvg-name="Eurosport 1 Spain (576p)" tvg-logo="" group-title="Sports",Eurosport 1 Spain (576p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://45.134.141.161:2200/ARG/Eurosport_1_HD/index.m3u8
 #EXTINF:-1 tvg-id="Eurosport2.fr@Czechia" tvg-name="Eurosport 2 Czechia" tvg-logo="" group-title="Sports",Eurosport 2 Czechia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://88.212.7.14/live/test_esp2_hevc_tizen/playlist.m3u8
@@ -181,6 +178,9 @@ https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_500.m3u8
 https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_500.m3u8
 #EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English (1080p)" tvg-logo="" group-title="News",France 24 English (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://freem3u.xyz/api/live/play.m3u8?vid=96
+#EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English (1080p)" tvg-logo="" group-title="News",France 24 English (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
 #EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English (1080p)" tvg-logo="" group-title="News",France 24 English (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -194,6 +194,9 @@ https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_2300.m3u8
 #EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English (720p)" tvg-logo="" group-title="News",France 24 English (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live.france24.com/hls/live/2037218/F24_EN_HI_HLS/master_2300.m3u8
+#EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English (720p)" tvg-logo="" group-title="News",France 24 English (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://mumbai-edge.smartplaytv.in/france24/index.m3u8
 #EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English (576p)" tvg-logo="" group-title="News",France 24 English (576p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_900.m3u8
@@ -272,9 +275,6 @@ http://99.27.51.147:8080/Gulli/index.m3u8
 #EXTINF:-1 tvg-id="HANDICAPTV.fr@SD" tvg-name="HANDICAP TV France" tvg-logo="" group-title="General",HANDICAP TV France
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://srv.webtvmanager.fr:3697/stream/play.m3u8
-#EXTINF:-1 tvg-id="ILTV.fr@SD" tvg-name="ILTV (720p)" tvg-logo="" group-title="General",ILTV (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://live.creacast.com/iltv/smil:iltv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="LEquipe.fr@SD" tvg-name="L'Equipe (1080p)" tvg-logo="" group-title="General",L'Equipe (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/133.0.0.0 Safari/537.36
 https://dq37unyetkpcz.cloudfront.net/v1/master/3722c60a815c199d9c0ef36c5b73da68a62b09d1/cc-m04j89j7k5gtp/LEquipe_FR.m3u8
@@ -398,9 +398,6 @@ http://185.228.163.146:8000/play/a03z/index.m3u8
 #EXTINF:-1 tvg-id="Eurosport2.fr@Portugal" tvg-name="Eurosport 2 Portugal" tvg-logo="" group-title="Sports",Eurosport 2 Portugal
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://185.228.163.146:8000/play/a048/index.m3u8
-#EXTINF:-1 tvg-id="MCMPop.fr@SD" tvg-name="MCM Pop" tvg-logo="" group-title="Music",MCM Pop
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://176.65.153.78:8201/play/a070/index.m3u8
 #EXTINF:-1 tvg-id="TV5MondeInfo.fr@SD" tvg-name="TV5Monde Info (720p)" tvg-logo="" group-title="News",TV5Monde Info (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://tvf-tvfm.otteravision.com/tvf/tvfm/tvfm_720.m3u8
@@ -434,6 +431,12 @@ http://85.117.37.43/eurosport1/index.m3u8
 #EXTINF:-1 tvg-id="TV5MondeEurope.fr@SD" tvg-name="TV5Monde Europe (576i)" tvg-logo="" group-title="General",TV5Monde Europe (576i)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://hls01ns.antenaplay.ro/hls/tv5-monde-europe-sd/index.m3u8
+#EXTINF:-1 tvg-id="Eurosport1.fr@France" tvg-name="Eurosport 1" tvg-logo="" group-title="Sports",Eurosport 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="Eurosport2.fr@France" tvg-name="Eurosport 2 (1080p)" tvg-logo="" group-title="Sports",Eurosport 2 (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2/live.livx/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="T.M.A CARAÏBES / MUSIC" tvg-logo="https://od.lk/s/M18yNjMyMzgzMjhf/tma.jpeg" group-title="Music",T.M.A CARAÏBES / MUSIC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://hls.tmacaraibes.com/live/index.m3u8
@@ -449,9 +452,6 @@ https://static.france24.com/live/F24_FR_HI_HLS/live_tv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TELE TCHAD / TCHAD" tvg-logo="https://od.lk/s/M18yNTkxOTU3MDVf/tchad.jpg" group-title="News",TELE TCHAD / TCHAD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://strhls.streamakaci.tv/str_tchad_tchad/str_tchad_multi/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PLAY TV / CAMEROUNE" tvg-logo="https://od.lk/s/M18yNDg1NzcwNTFf/play.jpg" group-title="Movies",PLAY TV / CAMEROUNE
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://connectiktv.ddns.net:5000/playtv/@playtv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="MY CHANNEL TV / CAMEROUNE" tvg-logo="https://od.lk/s/M18yNDg1NzczODRf/mychannel.jpg" group-title="Movies",MY CHANNEL TV / CAMEROUNE
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://connectiktv.ddns.net:5000/mytvchannel/@mytvchannel/playlist.m3u8
@@ -470,9 +470,6 @@ http://138.68.138.119:8080/low/5a8993709ea19/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="KC2 TV / Rwanda" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfQjI8jUhMPReWg0MOdw1xpAAXMP7YAuZKBg&usqp=CAU" group-title="Movies",KC2 TV / Rwanda
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://5c46fa289c89f.streamlock.net/kc2/kc2/chunklist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="PLEX TV /" tvg-logo="https://www.lifetimepremiumaccounts.com/wp-content/uploads/2019/03/plex-logo.jpg" group-title="Movies",PLEX TV /
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://connectiktv.ddns.net:5000/plextv/@plextv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Radio Tele Puissance" tvg-logo="https://radioendirect.net/assets/images/radio/item/119251.jpg" group-title="Movies",Radio Tele Puissance
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://video1.getstreamhosting.com:1936/8560/8560/chunklist.m3u8

@@ -11,6 +11,9 @@ https://livestar.siliconweb.com/starvod/star4/star4.m3u8
 #EXTINF:-1 tvg-id="StarChannel.gr" tvg-name="Star International" tvg-logo="https://i.imgur.com/Hp0stVQ.png" group-title="General",Star International
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://livestar.siliconweb.com/starvod/star_int/star_int.m3u8
+#EXTINF:-1 tvg-id="AlphaTV.gr" tvg-name="AlphaTV" tvg-logo="https://i.imgur.com/bAVGX0l.png" group-title="General",AlphaTV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://alphatvlive2.siliconweb.com/alphatvlive/live_abr/playlist.m3u8
 #EXTINF:-1 tvg-id="SkaiTV.gr" tvg-name="Skai TV" tvg-logo="https://i.imgur.com/TSg7B8X.png" group-title="General",Skai TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://skai-live.siliconweb.com/media/cambria4/index.m3u8
@@ -38,9 +41,6 @@ https://onechannel.siliconweb.com/one/stream/chunks_dvr.m3u8
 #EXTINF:-1 tvg-id="4E.gr" tvg-name="4E" tvg-logo="https://i.imgur.com/Ed085oJ.png" group-title="General",4E
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://eu2.tv4e.gr:1935/live/myStream.sdp/playlist.m3u8
-#EXTINF:-1 tvg-id="egnatiatv.gr" tvg-name="Egnatia" tvg-logo="https://i.imgur.com/zuyYIca.png" group-title="General",Egnatia
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://video.streams.ovh:1936/egnatiatv/egnatiatv/index.m3u
 #EXTINF:-1 tvg-id="gnomitv.gr" tvg-name="Gnomi" tvg-logo="https://i.imgur.com/mHCk05E.png" group-title="General",Gnomi
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live.streams.ovh:8081/gnomitv/index.m3u8
