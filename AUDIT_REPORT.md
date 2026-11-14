@@ -1,7 +1,7 @@
 # 📊 Rapport d'Audit IPTV Autopilot
 
-**Dernière exécution :** 14/11/2026 à 03:48:32  
-**Chaînes 100 % opérationnelles :** 🟢 **1347 flux vérifiés**  
+**Dernière exécution :** 14/11/2026 à 17:26:05  
+**Chaînes 100 % opérationnelles :** 🟢 **1353 flux vérifiés**  
 
 ---
 
@@ -9,14 +9,14 @@
 
 | Module | Fichier M3U | Nombre de Chaînes Actives |
 | :--- | :--- | :---: |
-| 🇫🇷 **France & TNT** | `playlists/france.m3u` | 🟢 **166** |
-| 🎬 **Cinéma & Films** | `playlists/cinema.m3u` | 🟢 **60** |
-| ⚽ **Sports** | `playlists/sports.m3u` | 🟢 **52** |
+| 🇫🇷 **France & TNT** | `playlists/france.m3u` | 🟢 **151** |
+| 🎬 **Cinéma & Films** | `playlists/cinema.m3u` | 🟢 **64** |
+| ⚽ **Sports** | `playlists/sports.m3u` | 🟢 **53** |
 | 📺 **Séries & Fictions** | `playlists/series.m3u` | 🟢 **8** |
-| 📰 **Actualités & Infos** | `playlists/news.m3u` | 🟢 **125** |
-| 🎵 **Musique** | `playlists/music.m3u` | 🟢 **82** |
-| 👶 **Jeunesse & Dessins Animés** | `playlists/kids.m3u` | 🟢 **12** |
-| 🌐 **Toutes les Chaînes** | `playlists/all.m3u` | 🟢 **1347** |
+| 📰 **Actualités & Infos** | `playlists/news.m3u` | 🟢 **110** |
+| 🎵 **Musique** | `playlists/music.m3u` | 🟢 **80** |
+| 👶 **Jeunesse & Dessins Animés** | `playlists/kids.m3u` | 🟢 **13** |
+| 🌐 **Toutes les Chaînes** | `playlists/all.m3u` | 🟢 **1353** |
 
 ---
 
@@ -25,22 +25,22 @@
 | Chaîne | Catégorie | Pays | Latence |
 | :--- | :--- | :---: | :---: |
 | 20 Minutes TV (1080p) | General | FR | 581 ms |
-| ADN TV+ (720p) | General | FR | 1045 ms |
-| Africa 24 English (1080p) | General | FR | 2309 ms |
-| Africanews English (720p) | News | FR | 1025 ms |
-| Africanews English (720p) | News | FR | 2612 ms |
-| Africanews French (720p) | News | FR | 776 ms |
-| Alpe d’Huez TV (720p) [Not 24/7] | General | FR | 2295 ms |
-| Antenne Réunion (720p) [Not 24/7] | General | FR | 7325 ms |
-| BFM2 (1080p) | News | FR | 983 ms |
-| BFM Business (576p) | News | FR | 1068 ms |
-| BFM Lyon (576p) | News | FR | 1141 ms |
-| BFM TV (576p) | News | FR | 1164 ms |
-| Brionnais TV (720p) | General | FR | 2439 ms |
-| Caillou | General | FR | 807 ms |
-| Canal+ Sport (1080p) [Geo-blocked] | Sports | FR | 1202 ms |
-| Cannes Lérins TV (1080p) | General | FR | 1462 ms |
-| CNews (1080p) | News | FR | 1088 ms |
-| CNews (1080p) [Geo-blocked] | News | FR | 648 ms |
-| CNEWS PRIME (1080p) | News | FR | 885 ms |
-| Equidia (1080p) | General | FR | 1747 ms |
+| ADN TV+ (720p) | General | FR | 1289 ms |
+| Africa 24 English (1080p) | General | FR | 2985 ms |
+| Africanews English (720p) | News | FR | 1703 ms |
+| Africanews English (720p) | News | FR | 2797 ms |
+| Africanews French (720p) | News | FR | 712 ms |
+| Alpe d’Huez TV (720p) [Not 24/7] | General | FR | 2876 ms |
+| Antenne Réunion (720p) [Not 24/7] | General | FR | 8822 ms |
+| BFM2 (1080p) | News | FR | 1161 ms |
+| BFM Business (576p) | News | FR | 1195 ms |
+| BFM Lyon (576p) | News | FR | 1390 ms |
+| BFM TV (576p) | News | FR | 1058 ms |
+| Brionnais TV (720p) | General | FR | 2788 ms |
+| Caillou | General | FR | 1395 ms |
+| Canal+ Sport (1080p) [Geo-blocked] | Sports | FR | 1349 ms |
+| Cannes Lérins TV (1080p) | General | FR | 1553 ms |
+| CNews (1080p) | News | FR | 1035 ms |
+| CNews (1080p) [Geo-blocked] | News | FR | 863 ms |
+| CNEWS PRIME (1080p) | News | FR | 774 ms |
+| Equidia (1080p) | General | FR | 1947 ms |
