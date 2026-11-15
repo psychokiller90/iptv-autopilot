@@ -29,6 +29,3 @@ https://playout172.livextend.cloud/liveiframe/_definst_/ngrp:liveartvabr_abr/pla
 #EXTINF:-1 tvg-id="CNNPortugal.pt" tvg-name="CNN Portugal" tvg-logo="https://i.imgur.com/NYH39xs.png" group-title="General",CNN Portugal
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://github.com/LITUATUI/M3UPT/raw/main/M3U/CNN_Portugal.m3u8
-#EXTINF:-1 tvg-id="RTPAfrica.pt" tvg-name="RTP África" tvg-logo="https://i.imgur.com/ISFNy17.png" group-title="General",RTP África
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://streaming-live.rtp.pt/liverepeater/smil:rtpafrica.smil/playlist.m3u8
