@@ -11,9 +11,6 @@ http://141.94.193.53:80/M4_Sport_HD/index.m3u8
 #EXTINF:-1 tvg-id="M5.hu" tvg-name="M5 Hungary" tvg-logo="https://i.imgur.com/qLQz2V6.png" group-title="General",M5 Hungary Ⓖ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://141.94.193.53:80/M5_HD/index.m3u8
-#EXTINF:-1 tvg-id="DunaWorld.hu" tvg-name="Duna World / M4+ Sport" tvg-logo="https://i.imgur.com/DciAdFF.png" group-title="Sports",Duna World / M4+ Sport
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://141.94.193.53:80/Duna_World_M4_Sport+_HD/index.m3u8
 #EXTINF:-1 tvg-id="RTLKlub.hu" tvg-name="RTL Klub" tvg-logo="https://i.imgur.com/ruRshE1.png" group-title="General",RTL Klub
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://141.94.193.53:80/RTL_HD/index.m3u8
@@ -170,12 +167,21 @@ https://cloudfront44.lexanetwork.com:1344/relay44_1/HDE040.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="KomaromiTelevizio.hu" tvg-name="Komáromi Televízió" tvg-logo="" group-title="General",Komáromi Televízió
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://cloudfront44.lexanetwork.com:1344/relay01/HDE017.sdp/playlist.m3u8
+#EXTINF:-1 tvg-id="KossuthRadio.hu" tvg-name="Kossuth Rádió" tvg-logo="https://upload.wikimedia.org/wikipedia/hu/6/69/Mr1.png?utm_source=hu.wikipedia.org&utm_campaign=index&utm_content=original" group-title="General",Kossuth Rádió
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://budapest-cache-1.antik.sk/live/kossuth_radio/index.m3u8
 #EXTINF:-1 tvg-id="PetofiRadio.hu" tvg-name="Petőfi Rádió" tvg-logo="https://upload.wikimedia.org/wikipedia/hu/0/0c/MR2-Pet%C5%91fi.png?utm_source=hu.wikipedia.org&utm_campaign=index&utm_content=original" group-title="General",Petőfi Rádió
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://budapest-cache-1.antik.sk/live/petofi_radio/index.m3u8
 #EXTINF:-1 tvg-id="BartokRadio.hu" tvg-name="Bartók Rádió" tvg-logo="https://upload.wikimedia.org/wikipedia/hu/c/ce/MR3-BARTOK.png?utm_source=hu.wikipedia.org&utm_campaign=index&utm_content=original" group-title="General",Bartók Rádió
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://budapest-cache-1.antik.sk/live/bartok_radio/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Rádió1" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/52/Radio1.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="General",Rádió1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://budapest-cache-1.antik.sk/live/radio_1/index.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Retró Rádió" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/6/6c/Retroradio.svg/revision/latest?cb=20210520195847" group-title="General",Retró Rádió
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://budapest-cache-1.antik.sk/live/retro/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="90.9 Jazzy FM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/14/Jazzy.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="Music",90.9 Jazzy FM
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://budapest-cache-1.antik.sk/live/jazzy/index.m3u8
