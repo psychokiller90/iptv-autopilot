@@ -44,9 +44,6 @@ https://495c5a85d9074f29acffeaea9e0215eb.msvdn.net/super/super_main/super_main_h
 #EXTINF:-1 tvg-id="RaiNews24.it" tvg-name="Rai News 24" tvg-logo="https://i.imgur.com/gdzGwB6.png" group-title="News",Rai News 24
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://d3k8wzt41aflvx.cloudfront.net/RAINEWS24/Live.m3u8
-#EXTINF:-1 tvg-id="RaiNews24.it" tvg-name="Rai News 24" tvg-logo="https://i.imgur.com/gdzGwB6.png" group-title="News",Rai News 24 Ⓖ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7&forceUserAgent=rainet/4.0.5
 #EXTINF:-1 tvg-id="TGCom.it" tvg-name="TGCOM 24" tvg-logo="https://i.imgur.com/xautVD8.png" group-title="General",TGCOM 24
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://d3k8wzt41aflvx.cloudfront.net/TGCOM24/Live.m3u8
@@ -68,6 +65,9 @@ https://streaming.aurora.enhanced.live/live/mpc/enl0eG1mLmVncmVzcy5mZDJ2eHI=/out
 #EXTINF:-1 tvg-id="Sportitalia.it" tvg-name="Sportitalia Plus" tvg-logo="https://i.imgur.com/hu56Ya5.png" group-title="Sports",Sportitalia Plus
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://sportsitalia-samsungitaly.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="TravelTV.it" tvg-name="Travel TV" tvg-logo="https://i.imgur.com/aXAUyLN.png" group-title="Documentary",Travel TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://5a1178b42cc03.streamlock.net/travel/travel/playlist.m3u8
 #EXTINF:-1 tvg-id="DonnaTV.it" tvg-name="Donna TV" tvg-logo="https://i.imgur.com/Aa1Abme.png" group-title="General",Donna TV Ⓢ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://5f11919dca3bd.streamlock.net/donnatv/donnatv/playlist.m3u8
@@ -203,6 +203,9 @@ https://ed05.top-ix.org/avtvlive/azzurra/streaming/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Bella e Monella TV" tvg-logo="https://i.imgur.com/yZONx5f.png" group-title="General",Bella e Monella TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://58d921499d3d3.streamlock.net/RadioBelllaemonellaTV/livestream/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Bergamo Tv" tvg-logo="https://i.imgur.com/1doR6Vl.png" group-title="General",Bergamo Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://db142859fd5541b09de25d6507f1f2d3.msvdn.net/live/S17501676/oIxAsgEEA46M/playlist.m3u8?DVR
 #EXTINF:-1 tvg-id="BomChannel.it" tvg-name="BOM Channel" tvg-logo="https://i.imgur.com/hISoOK3.png" group-title="General",BOM Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://5f22d76e220e1.streamlock.net/canale6/canale6/playlist.m3u8
@@ -212,9 +215,6 @@ https://srvx1.selftv.video/cafe/live/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Calabria Uno Tv" tvg-logo="https://i.imgur.com/2TK1GQ5.png" group-title="General",Calabria Uno Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://635320cd397eb.streamlock.net/live/calabriaunolive/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Calabria tv" tvg-logo="https://i.imgur.com/qWirucd.png" group-title="General",Calabria tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://64b16f23efbee.streamlock.net/calabriatv/calabriatv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Canale 10" tvg-logo="https://i.imgur.com/KuQcjYV.png" group-title="General",Canale 10
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://nrvideo1.newradio.it:1936/desxcerbht/desxcerbht/playlist.m3u8
@@ -239,6 +239,12 @@ https://ovp-live.akamaized.net/ac115_live/canale1.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Casa Italia 53" tvg-logo="https://i.imgur.com/O4GQVCk.png" group-title="General",Casa Italia 53
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://ovp-live.akamaized.net/ac115_live/canale3.smil/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Casa Sanremo Tv" tvg-logo="https://i.imgur.com/WL3SFTs.png" group-title="General",Casa Sanremo Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://router.xdevel.com/video0s975911-633/stream/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Castrovillari Tv" tvg-logo="https://i.imgur.com/V0kjYNG.png" group-title="General",Castrovillari Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://msh0062.stream.seeweb.it/live/flv:stream00.sdp/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Cittaceleste Tv" tvg-logo="https://i.imgur.com/9RVriNK.jpeg" group-title="General",Cittaceleste Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://sportitaliaamd.akamaized.net/live/Cittaceleste/hls/A990687F506536598442FC5CD12C97CB78873FBA/index.m3u8
@@ -341,6 +347,9 @@ https://64b16f23efbee.streamlock.net/servizio01/servizio01/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="NTI Canale 271" tvg-logo="https://i.imgur.com/zlmcUe0.jpg" group-title="General",NTI Canale 271
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://www.ntimedia.it/video/S0B/S0B_master.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Nuova Tv 1" tvg-logo="https://i.imgur.com/1yqTZhR.png" group-title="General",Nuova Tv 1
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://nuovatv.net:8443/tv/stream.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Nuvola Tv" tvg-logo="https://i.imgur.com/EDGez2x.png" group-title="General",Nuvola Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stream.nuvola.tv:8181/memfs/4aaa6328-1879-4ebf-b18a-498146d0c61c.m3u8
@@ -563,9 +572,6 @@ https://oj7lnw79lg82-hls-live.mariatvcdn.it/mariatvcdn/70564e1c6884c007c76f0c128
 #EXTINF:-1 tvg-id="" tvg-name="Tcf Tv" tvg-logo="https://i.imgur.com/fiylFs2.jpg" group-title="General",Tcf Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stream10.xdevel.com/video1s977294-1864/stream/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Teatro Tv" tvg-logo="https://i.imgur.com/UsvffQL.png" group-title="General",Teatro Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://teatrotv.iostream.it/teatrotv.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tele Abruzzo Tv" tvg-logo="https://i.imgur.com/koB8J4b.jpg" group-title="General",Tele Abruzzo Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://uk4.streamingpulse.com:1935/TeleabruzzoTV/TeleabruzzoTV/playlist.m3u8
@@ -674,6 +680,9 @@ https://59d7d6f47d7fc.streamlock.net/rs2/rs2/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tele8 Tv" tvg-logo="https://i.imgur.com/dM0HE6O.png" group-title="General",Tele8 Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://57068da1deb21.streamlock.net/teletv8/teletv8/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Teleitalia 41" tvg-logo="https://i.imgur.com/lTuPSOn.png" group-title="General",Teleitalia 41
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://streaming.softwarecreation.it/teleitalia/teleitalia/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Teleleonessa" tvg-logo="https://i.imgur.com/jq3etlV.png" group-title="General",Teleleonessa
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://wms.shared.streamshow.it:1935/teleleonessa/teleleonessa/live.m3u8
@@ -695,9 +704,6 @@ https://57068da1deb21.streamlock.net/teletibur/teletibur/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Teleuniverso" tvg-logo="https://i.imgur.com/u8E9wBb.png" group-title="General",Teleuniverso
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stream.ets-sistemi.it:19360/teleuniverso/teleuniverso.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="Tuscia Sabina 2000Tv" tvg-logo="https://i.imgur.com/Tq5nEAy.png" group-title="General",Tuscia Sabina 2000Tv
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://ts2000tv.streaming.nextware.it:8081/ts2000tv/ts2000tv/chunks.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Tv Prato" tvg-logo="https://i.imgur.com/zDeVpZd.png" group-title="General",Tv Prato
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live.mariatvcdn.com/tvprato/2db0dd5674586686a867ec52c3aa8e06.sdp/mono.m3u8
@@ -716,6 +722,9 @@ https://cdn8.streamshow.it/cloud-tvrs/tvrs/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Umbria Tv" tvg-logo="https://i.imgur.com/XKCVEmK.png" group-title="General",Umbria Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://umbriatv.stream.rubidia.it:8083/live/umbriatv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="Uno4 Tv" tvg-logo="https://i.imgur.com/wfPPpBA.png" group-title="General",Uno4 Tv
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://cdn.uno4.it/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Vera Tv" tvg-logo="https://i.imgur.com/djMvkvN.png" group-title="General",Vera Tv
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://cdn9.streamshow.it/cloud-veratv/veratv/playlist.m3u8

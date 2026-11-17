@@ -83,9 +83,6 @@ https://bit.ly/BeinSportXtra?/master.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Trace Sports" tvg-logo="https://od.lk/s/M18yNjMyMzgzMjNf/TraceAfricajpeg" group-title="Sports",Trace Sports
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lightning-tracesport-samsungau.amagi.tv/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="B-Sports 2" tvg-logo="https://od.lk/s/M18yNjMzNzE3Nzlf/b_sport2.jpg" group-title="Sports",B-Sports 2
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://streaming.astrakhan.ru/astrakhanrusporthd/playlist.m3u8
 #EXTINF:-1 tvg-id="M4Sport.hu" tvg-name="M4 Sport" tvg-logo="https://nb1.hu/uploads/news/3/31023.jpg" group-title="Sports",M4 Sport Ⓖ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://141.94.193.53:80/M4_Sport_HD/index.m3u8
@@ -95,9 +92,6 @@ http://141.94.193.53:80/Duna_World_M4_Sport+_HD/index.m3u8
 #EXTINF:-1 tvg-id="Sport1.hu" tvg-name="Sport1" tvg-logo="https://www.tvmustra.hu/logok/csatikon/sport1.gif" group-title="Sports",Sport1 Ⓖ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://141.94.193.53:80/Sport_1_HD/index.m3u8
-#EXTINF:-1 tvg-id="Sport2.hu" tvg-name="Sport2" tvg-logo="https://www.tvmustra.hu/logok/csatikon/sport2.gif" group-title="Sports",Sport2 Ⓖ
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://141.94.193.53:80/Sport_2_HD/index.m3u8
 #EXTINF:-1 tvg-id="Eurosport1.hu" tvg-name="EuroSport1" tvg-logo="https://files.cdn.magio.tv/tv_logos/eurosport-1-hd.png" group-title="Sports",EuroSport1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://141.94.193.53:80/Eurosport_1_HD/index.m3u8
