@@ -155,12 +155,12 @@ https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsRussian.fr@SD" tvg-name="Euronews Russian" tvg-logo="" group-title="News",Euronews Russian
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stream8.cinerama.uz/1024/tracks-v1a1/mono.m3u8
-#EXTINF:-1 tvg-id="EuronewsSpanish.fr@SD" tvg-name="Euronews Spanish (1080p)" tvg-logo="" group-title="News",Euronews Spanish (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://iptv.bitred.cl/euronews/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsSpanish.fr@SD" tvg-name="Euronews Spanish (720p)" tvg-logo="" group-title="News",Euronews Spanish (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://cdn-euronews.akamaized.net/live/eds/euronews-es/25053/index.m3u8
+#EXTINF:-1 tvg-id="Europe1TV.fr@HD" tvg-name="Europe 1 TV (1080p)" tvg-logo="" group-title="General",Europe 1 TV (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/misc/europe-1-tv-dm.m3u8
 #EXTINF:-1 tvg-id="Eurosport1.fr@France" tvg-name="Eurosport 1" tvg-logo="" group-title="Sports",Eurosport 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1/live.livx/playlist.m3u8
@@ -203,9 +203,6 @@ https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2_it/live.livx/playli
 #EXTINF:-1 tvg-id="Eurosport2.fr@Russia" tvg-name="Eurosport 2 Russia (1080p)" tvg-logo="" group-title="Sports",Eurosport 2 Russia (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://s7.iptv-24.net/1452/playlist.m3u8
-#EXTINF:-1 tvg-id="Eurosport2.fr@Spain" tvg-name="Eurosport 2 Spain (1080p)" tvg-logo="" group-title="Sports",Eurosport 2 Spain (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://45.134.141.161:2200/ARG/Eurosport_2_HD/index.m3u8
 #EXTINF:-1 tvg-id="Eurosport2.fr@UK" tvg-name="Eurosport 2 UK" tvg-logo="" group-title="Sports",Eurosport 2 UK
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2_en/live.livx/playlist.m3u8
@@ -524,6 +521,9 @@ http://tv.streambox.fr/live/testlivestream/testlivestream/13.m3u8
 #EXTINF:-1 tvg-id="ToutelHistoire.fr@SD" tvg-name="Toute l'Histoire (720p)" tvg-logo="" group-title="Documentary",Toute l'Histoire (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/toute_lhistoire/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="TraceSportStars.fr@HD" tvg-name="Trace Sport Stars (576p)" tvg-logo="" group-title="Sports",Trace Sport Stars (576p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://mumbai-edge.smartplaytv.in/TraceSport/index.m3u8
 #EXTINF:-1 tvg-id="TraceSportStars.fr@Russia" tvg-name="Trace Sport Stars Russia (720p)" tvg-logo="" group-title="Sports",Trace Sport Stars Russia (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
@@ -533,6 +533,9 @@ https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
 #EXTINF:-1 tvg-id="TV3V.fr@SD" tvg-name="TV3V (720p)" tvg-logo="" group-title="General",TV3V (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://tv3v.live-kd.com/live/tv3v/livestream/index.m3u8
+#EXTINF:-1 tvg-id="TV5MondeAfrica.fr@SD" tvg-name="TV5Monde Africa (720p)" tvg-logo="" group-title="General",TV5Monde Africa (720p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://5.9.121.178/tv5monde/index.m3u8
 #EXTINF:-1 tvg-id="TV5MondeAsia.fr@SD" tvg-name="TV5Monde Asia (1080p)" tvg-logo="" group-title="General",TV5Monde Asia (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://freem3u.xyz/api/live/play.m3u8?vid=9852
