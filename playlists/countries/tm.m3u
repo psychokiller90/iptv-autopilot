@@ -1,4 +1,7 @@
 #EXTM3U name="IPTV TM"
+#EXTINF:-1 tvg-id="" tvg-name="Altyn Asyr" tvg-logo="" group-title="General",Altyn Asyr
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://alpha.tv.online.tm/hls/ch001.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Yaslyk" tvg-logo="" group-title="General",Yaslyk
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://alpha.tv.online.tm/hls/ch002.m3u8
