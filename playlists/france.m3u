@@ -2,9 +2,6 @@
 #EXTINF:-1 tvg-id="6ter.fr@SD" tvg-name="6ter (720p)" tvg-logo="" group-title="General",6ter (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/6ter_fr/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-id="13emeRue.fr@SD" tvg-name="13eme Rue" tvg-logo="" group-title="General",13eme Rue
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://192.99.186.30/stream/251/index.m3u8
 #EXTINF:-1 tvg-id="20MinutesTV.fr@SD" tvg-name="20 Minutes TV (1080p)" tvg-logo="" group-title="General",20 Minutes TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live-20minutestv.digiteka.com/1961167769/index.m3u8
@@ -23,9 +20,6 @@ https://edge20.vedge.infomaniak.com/livecast/ik:africa24english/manifest.m3u8
 #EXTINF:-1 tvg-id="AfricanewsEnglish.fr@SD" tvg-name="Africanews English (720p)" tvg-logo="" group-title="News",Africanews English (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://cdn-euronews.akamaized.net/live/eds/africanews-en/25049/index.m3u8
-#EXTINF:-1 tvg-id="AfricanewsEnglish.fr@SD" tvg-name="Africanews English (720p)" tvg-logo="" group-title="News",Africanews English (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://mumbai-edge.smartplaytv.in/AfricaNews/index.m3u8
 #EXTINF:-1 tvg-id="AfricanewsFrench.fr@SD" tvg-name="Africanews French (720p)" tvg-logo="" group-title="News",Africanews French (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://cdn-euronews.akamaized.net/live/eds/africanews-fr/25050/index.m3u8
@@ -155,12 +149,12 @@ https://cdn-euronews.akamaized.net/live/eds/euronews-ru/25071/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsRussian.fr@SD" tvg-name="Euronews Russian" tvg-logo="" group-title="News",Euronews Russian
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stream8.cinerama.uz/1024/tracks-v1a1/mono.m3u8
+#EXTINF:-1 tvg-id="EuronewsSpanish.fr@SD" tvg-name="Euronews Spanish (1080p)" tvg-logo="" group-title="News",Euronews Spanish (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://iptv.bitred.cl/euronews/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsSpanish.fr@SD" tvg-name="Euronews Spanish (720p)" tvg-logo="" group-title="News",Euronews Spanish (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://cdn-euronews.akamaized.net/live/eds/euronews-es/25053/index.m3u8
-#EXTINF:-1 tvg-id="Europe1TV.fr@HD" tvg-name="Europe 1 TV (1080p)" tvg-logo="" group-title="General",Europe 1 TV (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/misc/europe-1-tv-dm.m3u8
 #EXTINF:-1 tvg-id="Eurosport1.fr@France" tvg-name="Eurosport 1" tvg-logo="" group-title="Sports",Eurosport 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1/live.livx/playlist.m3u8
@@ -203,6 +197,9 @@ https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2_it/live.livx/playli
 #EXTINF:-1 tvg-id="Eurosport2.fr@Russia" tvg-name="Eurosport 2 Russia (1080p)" tvg-logo="" group-title="Sports",Eurosport 2 Russia (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://s7.iptv-24.net/1452/playlist.m3u8
+#EXTINF:-1 tvg-id="Eurosport2.fr@Spain" tvg-name="Eurosport 2 Spain (1080p)" tvg-logo="" group-title="Sports",Eurosport 2 Spain (1080p)
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://45.134.141.161:2200/ARG/Eurosport_2_HD/index.m3u8
 #EXTINF:-1 tvg-id="Eurosport2.fr@UK" tvg-name="Eurosport 2 UK" tvg-logo="" group-title="Sports",Eurosport 2 UK
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2_en/live.livx/playlist.m3u8
@@ -260,9 +257,6 @@ https://live.france24.com/hls/live/2037222-b/F24_AR_HI_HLS/master_500.m3u8
 #EXTINF:-1 tvg-id="France24.fr@Arabic" tvg-name="France 24 Arabic (360p)" tvg-logo="" group-title="News",France 24 Arabic (360p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live.france24.com/hls/live/2037222/F24_AR_HI_HLS/master_500.m3u8
-#EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English (1080p)" tvg-logo="" group-title="News",France 24 English (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://freem3u.xyz/api/live/play.m3u8?vid=96
 #EXTINF:-1 tvg-id="France24.fr@English" tvg-name="France 24 English (1080p)" tvg-logo="" group-title="News",France 24 English (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live.france24.com/hls/live/2037218-b/F24_EN_HI_HLS/master_5000.m3u8
@@ -528,7 +522,7 @@ https://mumbai-edge.smartplaytv.in/TraceSport/index.m3u8
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://stream8.cinerama.uz/1274/tracks-v1a1/mono.m3u8
 #EXTINF:-1 tvg-id="TraceSportStars.fr@SD" tvg-name="Trace Sport Stars SD" tvg-logo="" group-title="Sports",Trace Sport Stars SD
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 https://channels.trace.plus/Traceprod/TRACE_SPORT_STARS_sd/index.m3u8
 #EXTINF:-1 tvg-id="TV3V.fr@SD" tvg-name="TV3V (720p)" tvg-logo="" group-title="General",TV3V (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
@@ -731,6 +725,9 @@ http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5a4d3a00ad95e4718ae
 #EXTINF:-1 tvg-id="" tvg-name="Pluto TV Drama" tvg-logo="https://i.imgur.com/B9srooj.png" group-title="Movies",Pluto TV Drama
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5b4e92e4694c027be6ecece1/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=60&deviceId=5b4e92e4694c027be6ecece1&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
+#EXTINF:-1 tvg-id="" tvg-name="Pluto TV Fantastic" tvg-logo="https://i.imgur.com/dOfXc5w.png" group-title="Movies",Pluto TV Fantastic
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5b64a245a202b3337f09e51d/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=66&deviceId=5b64a245a202b3337f09e51d&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
 #EXTINF:-1 tvg-id="" tvg-name="Pluto TV Romance" tvg-logo="https://i.imgur.com/j6livg0.png" group-title="Movies",Pluto TV Romance
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5a66795ef91fef2c7031c599/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=70&deviceId=5a66795ef91fef2c7031c599&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
@@ -767,6 +764,9 @@ http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5f4d878d3d19b30007d
 #EXTINF:-1 tvg-id="" tvg-name="Paramount Movie Channel" tvg-logo="https://i.imgur.com/CfqRav0.png" group-title="Movies",Paramount Movie Channel
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5cb0cae7a461406ffe3f5213/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=100&deviceId=5cb0cae7a461406ffe3f5213&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
+#EXTINF:-1 tvg-id="" tvg-name="Pluto TV Westerns" tvg-logo="https://i.imgur.com/79R7m0b.png" group-title="Movies",Pluto TV Westerns
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/5b4e94282d4ec87bdcbb87cd/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=103&deviceId=5b4e94282d4ec87bdcbb87cd&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
 #EXTINF:-1 tvg-id="" tvg-name="Classic Movies" tvg-logo="https://i.imgur.com/feWPHep.png" group-title="Movies",Classic Movies
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://service-stitcher.clusters.pluto.tv/stitch/hls/channel/561c5b0dada51f8004c4d855/master.m3u8?terminate=false&deviceType=web&deviceMake=web&deviceModel=web&sid=106&deviceId=561c5b0dada51f8004c4d855&deviceVersion=DNT&appVersion=DNT&deviceDNT=0&userId=&advertisingId=&deviceLat=&deviceLon=&app_name=&appName=web&buildVersion=&appStoreUrl=&architecture=&includeExtendedEvents=false&marketingRegion=US&serverSideAds=false
@@ -974,18 +974,12 @@ https://mediapolis.rai.it/relinker/relinkerServlet.htm?cont=1&output=7&forceUser
 #EXTINF:-1 tvg-id="" tvg-name="LaC News 24" tvg-logo="https://i.imgur.com/02vCECa.png" group-title="News",LaC News 24
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://f5842579ff984c1c98d63b8d789673eb.msvdn.net/live/S27391994/HVvPMzy/playlist.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="TSN Tele Sondrio News" tvg-logo="https://i.imgur.com/24Anl5o.png" group-title="News",TSN Tele Sondrio News
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://189790-castr.akamaized.net/633d685a281cd401ae82c2f7/live_bc04bf70449f11ed80952100db9e5fd9/tracks-v1a1/rewind-3600.m3u8
 #EXTINF:-1 tvg-id="rch_47" tvg-name="日テレNEWS" tvg-logo="https://channel.rakuten.co.jp/service/img/logo/chlogo-with-number/104_ntvnews.png" group-title="News",日テレNEWS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://cdn-apne1.tsv2.amagi.tv/linear/amg01287-rakutentvjapan-news1hlscmaf-rakutenjp/playlist.m3u8
 #EXTINF:-1 tvg-id="ALWifakNewsTV.lb" tvg-name="ALWifak News TV" tvg-logo="" group-title="News",ALWifak News TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://alwifaklive.info:1935/live/myStream/playlist.m3u8
-#EXTINF:-1 tvg-id="MonacoInfo.mc" tvg-name="MonacoInfo" tvg-logo="https://www.lyngsat.com/logo/tv/mm/monaco_info.png" group-title="News",MonacoInfo
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://webtv.monacoinfo.com/live/prod/index.m3u8
 #EXTINF:-1 tvg-id="EagleNews.mn" tvg-name="Eagle News HD" tvg-logo="" group-title="News",Eagle News HD
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://cdn4.skygo.mn/live/disk1/Eagle/HLSv3-FTA/Eagle.m3u8
@@ -1148,9 +1142,6 @@ https://service-stitcher.clusters.pluto.tv/v1/stitch/embed/hls/channel/622a2d8da
 #EXTINF:-1 tvg-id="AlbKanaleMusicTV.al" tvg-name="AlbKanale Music TV" tvg-logo="https://i.imgur.com/JdKxscs.png" group-title="Music",AlbKanale Music TV Ⓢ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://albportal.net/albkanalemusic.m3u8
-#EXTINF:-1 tvg-id="JRTVJarviradio.fi" tvg-name="Järviradio TV" tvg-logo="https://jarviradio.fi/jrtv2/wp-content/uploads/2022/01/jrtv1.jpg" group-title="Music",Järviradio TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://streamer.radiotaajuus.fi/memfs/47f113bf-04ea-493b-a9d4-52945fd9db31.m3u8
 #EXTINF:-1 tvg-id="DeluxeMusic.de" tvg-name="DELUXE MUSIC" tvg-logo="https://i.imgur.com/E65GQN9.png" group-title="Music",DELUXE MUSIC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://sdn-global-live-streaming-packager-cache.3qsdn.com/13456/13456_264_live.m3u8
@@ -1166,9 +1157,6 @@ https://oxygenmusic.hu:2443/hls/oxygenmusic.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="Dance TV" tvg-logo="" group-title="Music",Dance TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://m1b2.worldcast.tv/dancetelevisionone/2/dancetelevisionone.m3u8
-#EXTINF:-1 tvg-id="" tvg-name="90.9 Jazzy FM" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/1/14/Jazzy.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" group-title="Music",90.9 Jazzy FM
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://budapest-cache-1.antik.sk/live/jazzy/index.m3u8
 #EXTINF:-1 tvg-id="Radio105TV.it" tvg-name="Radio 105 TV" tvg-logo="https://i.imgur.com/3NiLKvj.png" group-title="Music",Radio 105 TV Ⓖ
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://live02-seg.msr.cdn.mediaset.net/live/ch-ec/ec-clr.isml/index.m3u8

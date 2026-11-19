@@ -8,9 +8,6 @@ https://eazyvwqssi.erbvr.com/alghadtv/alghadtv.m3u8
 #EXTINF:-1 tvg-id="AlhayatTV.eg" tvg-name="Alhayat TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8c/Al-Hayat_Media_Center_Logo_%28variant_2%29.svg" group-title="General",Alhayat TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://cdn3.wowza.com/5/OE5HREpIcEkySlNT/alhayat-live/ngrp:livestream_all/playlist.m3u8
-#EXTINF:-1 tvg-id="CopticTV.eg" tvg-name="Coptic TV" tvg-logo="https://upload.wikimedia.org/wikipedia/en/4/4c/Coptic_news.jpg" group-title="General",Coptic TV
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://ctv.icopts.app/CTV/index.fmp4.m3u8
 #EXTINF:-1 tvg-id="HudaTV.eg" tvg-name="Huda TV" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/5/58/Logo_huda_%D8%AD%D8%AC%D9%85_%D9%83%D8%A8%D9%8A%D8%B1.gif" group-title="General",Huda TV
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://cdn.bestream.io:19360/elfaro1/elfaro1.m3u8
