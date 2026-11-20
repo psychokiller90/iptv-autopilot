@@ -161,9 +161,6 @@ https://iptv.bitred.cl/euronews/index.m3u8
 #EXTINF:-1 tvg-id="EuronewsSpanish.fr@SD" tvg-name="Euronews Spanish (720p)" tvg-logo="" group-title="News",Euronews Spanish (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://cdn-euronews.akamaized.net/live/eds/euronews-es/25053/index.m3u8
-#EXTINF:-1 tvg-id="Europe1TV.fr@HD" tvg-name="Europe 1 TV (1080p)" tvg-logo="" group-title="General",Europe 1 TV (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://raw.githubusercontent.com/Paradise-91/ParaTV/main/streams/misc/europe-1-tv-dm.m3u8
 #EXTINF:-1 tvg-id="Eurosport1.fr@France" tvg-name="Eurosport 1" tvg-logo="" group-title="Sports",Eurosport 1
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_1/live.livx/playlist.m3u8
@@ -206,12 +203,12 @@ https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2_it/live.livx/playli
 #EXTINF:-1 tvg-id="Eurosport2.fr@Russia" tvg-name="Eurosport 2 Russia (1080p)" tvg-logo="" group-title="Sports",Eurosport 2 Russia (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://s7.iptv-24.net/1452/playlist.m3u8
-#EXTINF:-1 tvg-id="Eurosport2.fr@Spain" tvg-name="Eurosport 2 Spain (1080p)" tvg-logo="" group-title="Sports",Eurosport 2 Spain (1080p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-http://45.134.141.161:2200/ARG/Eurosport_2_HD/index.m3u8
 #EXTINF:-1 tvg-id="Eurosport2.fr@UK" tvg-name="Eurosport 2 UK" tvg-logo="" group-title="Sports",Eurosport 2 UK
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/eurosport_2_en/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="Eurosport4K.fr@Romania" tvg-name="Eurosport 4K Romania (2160p) [Geo-blocked]" tvg-logo="" group-title="Sports",Eurosport 4K Romania (2160p) [Geo-blocked]
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://vip-acasatv.online:25463/lrZuGxAuP3/6782859900/5449.m3u8
 #EXTINF:-1 tvg-id="EvandisGospelTV.fr@SD" tvg-name="Evandis Gospel TV (1080p)" tvg-logo="" group-title="General",Evandis Gospel TV (1080p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://evandis.streamakaci.tv/str_evandis_evandis/str_evandis_multi/playlist.m3u8
@@ -371,9 +368,6 @@ https://srv.webtvmanager.fr:3697/stream/play.m3u8
 #EXTINF:-1 tvg-id="HistoireTV.fr@SD" tvg-name="Histoire TV (720p)" tvg-logo="" group-title="Documentary",Histoire TV (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/histoire/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-id="ILTV.fr@SD" tvg-name="ILTV (720p)" tvg-logo="" group-title="General",ILTV (720p)
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://live.creacast.com/iltv/smil:iltv.smil/playlist.m3u8
 #EXTINF:-1 tvg-id="InvestigationDiscovery.fr@SD" tvg-name="Investigation Discovery" tvg-logo="" group-title="Documentary",Investigation Discovery
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
 http://192.99.186.30/stream/81/index.m3u8
@@ -410,6 +404,9 @@ https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/m6_fr/live.livx/playlist.m3
 #EXTINF:-1 tvg-id="Mangas.fr@SD" tvg-name="Mangas (720p)" tvg-logo="" group-title="Kids",Mangas (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/mangas/live.livx/playlist.m3u8
+#EXTINF:-1 tvg-id="MCMPop.fr@SD" tvg-name="MCM Pop" tvg-logo="" group-title="Music",MCM Pop
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://176.65.153.78:8201/play/a070/index.m3u8
 #EXTINF:-1 tvg-id="MDL.fr@SD" tvg-name="MDL (720p)" tvg-logo="" group-title="General",MDL (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 http://tv.mondeduloisir.fr:1935/tixtv/smil:web.smil/playlist.m3u8
@@ -461,9 +458,6 @@ https://n-5-2.eu.cdn-redge.media/livehls/oeu/mt/live/rmc_story/live.livx/playlis
 #EXTINF:-1 tvg-id="ScienceVieTV.fr@SD" tvg-name="Science & Vie TV (720p)" tvg-logo="" group-title="Documentary",Science & Vie TV (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/science_et_vie/live.livx/playlist.m3u8
-#EXTINF:-1 tvg-id="SciFi.fr@HD" tvg-name="SciFi" tvg-logo="" group-title="General",SciFi
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36
-http://192.99.186.30/stream/250/index.m3u8
 #EXTINF:-1 tvg-id="SerieClub.fr@SD" tvg-name="Serie Club (720p)" tvg-logo="" group-title="Series",Serie Club (720p)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://r.eu.cdn-redge.media/livehls/oeu/mt/live/serie_club/live.livx/playlist.m3u8
@@ -599,6 +593,9 @@ http://hls.tmacaraibes.com/live/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="TRACE URBAN / MUSIC" tvg-logo="https://od.lk/s/M18yNjUzMDQ5MzVf/urban" group-title="Music",TRACE URBAN / MUSIC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://lightning-traceurban-samsungau.amagi.tv/playlist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="AFROBEATS TV" tvg-logo="https://od.lk/s/M18yNDU0NzcyNzRf/afrobeats.jpg" group-title="Music",AFROBEATS TV
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://stream.ecable.tv/afrobeats/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="FRANCE 24 / INFOS" tvg-logo="https://od.lk/s/M18yNTkxOTMwMjhf/france.jpg" group-title="News",FRANCE 24 / INFOS
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://static.france24.com/live/F24_FR_HI_HLS/live_tv.m3u8
@@ -626,6 +623,9 @@ http://138.68.138.119:8080/low/5a8993709ea19/index.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="KC2 TV / Rwanda" tvg-logo="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQfQjI8jUhMPReWg0MOdw1xpAAXMP7YAuZKBg&usqp=CAU" group-title="Movies",KC2 TV / Rwanda
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://5c46fa289c89f.streamlock.net/kc2/kc2/chunklist.m3u8
+#EXTINF:-1 tvg-id="" tvg-name="PLEX TV /" tvg-logo="https://www.lifetimepremiumaccounts.com/wp-content/uploads/2019/03/plex-logo.jpg" group-title="Movies",PLEX TV /
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+http://connectiktv.ddns.net:5000/plextv/@plextv/playlist.m3u8
 #EXTINF:-1 tvg-id="" tvg-name="QTV / Gambia" tvg-logo="https://standard.gm/wp-content/uploads/2020/08/QTV-696x495.jpg" group-title="General",QTV / Gambia
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://player.qtv.gm/hls/live.stream.m3u8
