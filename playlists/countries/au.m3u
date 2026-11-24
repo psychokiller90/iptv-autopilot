@@ -2,9 +2,6 @@
 #EXTINF:-1 tvg-id="ABCTV.au" tvg-name="ABC" tvg-logo="https://i.imgur.com/5CVl5EF.png" group-title="General",ABC
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://c.mjh.nz/abc-nsw.m3u8
-#EXTINF:-1 tvg-id="10Peach.au" tvg-name="10 Peach" tvg-logo="https://i.imgur.com/NlZLut8.png" group-title="General",10 Peach
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://i.mjh.nz/.r/10peach-nsw.m3u8
 #EXTINF:-1 tvg-id="10Bold.au" tvg-name="10 Bold" tvg-logo="https://i.imgur.com/2cq3fY1.png" group-title="General",10 Bold
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://dce3793146fef017.mediapackage.us-west-2.amazonaws.com/out/v1/55cdf73af7894775ba6de8f57482b66a/CMAF_HLS/index.m3u8
